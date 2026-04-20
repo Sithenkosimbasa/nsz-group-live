@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NSZ Group — Pricing</title>
+
+  <!-- CSS FILES — link in this exact order -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pricing.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="nav-wrapper">
+        <!-- Logo -->
+        <a href="index.html" class="logo-link" aria-label="NSZ Group – Home">
+          <svg class="logo-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.1288 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z" fill="currentColor"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z" fill="currentColor"/>
+          </svg>
+          <span class="logo-text">NSZ GROUP</span>
+        </a>
+
+        <!-- Desktop navigation -->
+        <nav class="nav-desktop" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="services.html#ict">ICT Services</a>
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle">Our Work <span class="material-symbols-outlined">expand_more</span></a>
+            <div class="dropdown-menu">
+              <a href="work.html#our-websites">Websites We've Built</a>
+              <a href="work.html#our-posters">Posters & Design</a>
+            </div>
+          </div>
+          <a href="pricing.html" class="active">Pricing</a>
+          <a href="services.html#construction">Construction</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <button class="btn btn-primary" data-modal="quote">Get a Quote</button>
+        </nav>
+
+        <!-- Mobile toggle -->
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+
+      <!-- Mobile navigation -->
+      <nav class="nav-mobile" aria-label="Mobile navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html#ict">ICT Services</a></li>
+          <li>
+            <a href="#" class="dropdown-toggle">Our Work <span class="material-symbols-outlined">expand_more</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="work.html#our-websites">Websites We've Built</a></li>
+              <li><a href="work.html#our-posters">Posters & Design</a></li>
+            </ul>
+          </li>
+          <li><a href="pricing.html" class="active">Pricing</a></li>
+          <li><a href="services.html#construction">Construction</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button class="btn btn-primary" data-modal="quote">Get a Quote</button></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile overlay -->
+      <div class="nav-overlay"></div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Pricing Section -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <header class="pricing-header reveal">
+          <span class="eyebrow">Transparent Pricing</span>
+          <h2 class="section-title">Choose Your Package</h2>
+          <p class="pricing-intro">
+            Select the perfect package for your needs. All packages include professional
+            consultation and ongoing support to ensure your success.
+          </p>
+        </header>
+
+        <!-- Pricing Tabs -->
+        <div class="pricing-tabs reveal reveal-delay-1">
+          <button class="pricing-tab active" data-tab="posters">Posters & Design</button>
+          <button class="pricing-tab" data-tab="websites">Websites</button>
+          <button class="pricing-tab" data-tab="ecommerce">E-Commerce</button>
+          <button class="pricing-tab" data-tab="logo">Logo & Branding</button>
+          <button class="pricing-tab" data-tab="social">Social Media</button>
+        </div>
+
+        <!-- Pricing Cards Container -->
+        <div class="pricing-cards" id="pricing-cards">
+
+          <!-- Posters & Design Tab -->
+          <div class="pricing-content active" id="posters">
+            <div class="pricing-grid">
+              <article class="pricing-card reveal">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">Perfect for individuals</span>
+                  <h3 class="pricing-title">Casual</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 150</span>
+                    <span class="price-note">per poster</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> 1 custom poster design</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 1 revision</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Digital file (JPG/PNG)</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 3–5 day turnaround</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Print-ready files</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Source file included</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Casual Poster" data-price="R 150" data-category="Posters & Design">Get Started</button>
+              </article>
+
+              <article class="pricing-card popular reveal reveal-delay-1">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">Great for small businesses</span>
+                  <span class="popular-badge">Most Popular</span>
+                  <h3 class="pricing-title">Startup</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 350</span>
+                    <span class="price-note">per poster</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> 1 premium poster design</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 3 revisions</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Digital + Print-ready files</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 2–3 day turnaround</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Social media resize included</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Source file included</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Startup Poster" data-price="R 350" data-category="Posters & Design">Get Started</button>
+              </article>
+
+              <article class="pricing-card reveal reveal-delay-2">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">For brands & campaigns</span>
+                  <h3 class="pricing-title">Business</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 800</span>
+                    <span class="price-note">per poster / bulk discounts available</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> Up to 3 poster designs</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Unlimited revisions</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Digital + Print-ready + Source files</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 1–2 day turnaround</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Social media resize included</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Brand consistency review</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Business Poster" data-price="R 800" data-category="Posters & Design">Get Started</button>
+              </article>
+            </div>
+          </div>
+
+          <!-- Websites Tab -->
+          <div class="pricing-content" id="websites">
+            <div class="pricing-grid">
+              <article class="pricing-card reveal">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">Ideal for startups & freelancers</span>
+                  <h3 class="pricing-title">Single Page</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 1 500</span>
+                    <span class="price-note">once-off</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> 1-page responsive website</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Contact form</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Basic SEO setup</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Mobile optimised</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> CMS / editable content</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Hosting included</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Single Page Website" data-price="R 1 500" data-category="Websites">Get Started</button>
+              </article>
+
+              <article class="pricing-card popular reveal reveal-delay-1">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">For growing businesses</span>
+                  <span class="popular-badge">Most Popular</span>
+                  <h3 class="pricing-title">Business Website</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 4 500</span>
+                    <span class="price-note">once-off</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> Up to 5 pages</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Contact form + newsletter signup</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> SEO optimization</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Google Analytics setup</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 3 months free maintenance</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> E-commerce functionality</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Business Website" data-price="R 4 500" data-category="Websites">Get Started</button>
+              </article>
+
+              <article class="pricing-card reveal reveal-delay-2">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">For established businesses</span>
+                  <h3 class="pricing-title">Premium Website</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 8 500</span>
+                    <span class="price-note">once-off</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> Unlimited pages</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Advanced contact forms</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Advanced SEO + Analytics</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> CMS integration</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 6 months free maintenance</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Performance optimization</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Premium Website" data-price="R 8 500" data-category="Websites">Get Started</button>
+              </article>
+            </div>
+          </div>
+
+          <!-- E-Commerce Tab -->
+          <div class="pricing-content" id="ecommerce">
+            <div class="pricing-grid">
+              <article class="pricing-card reveal">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">Perfect for getting started</span>
+                  <h3 class="pricing-title">Starter Store</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 6 500</span>
+                    <span class="price-note">once-off + R 250/month hosting</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> Up to 10 products</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Payment integration</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Basic inventory management</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Mobile responsive</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Advanced analytics</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Multi-vendor support</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Starter E-Commerce Store" data-price="R 6 500" data-category="E-Commerce">Get Started</button>
+              </article>
+
+              <article class="pricing-card popular reveal reveal-delay-1">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">For growing online businesses</span>
+                  <span class="popular-badge">Most Popular</span>
+                  <h3 class="pricing-title">Business Store</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 12 500</span>
+                    <span class="price-note">once-off + R 450/month hosting</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> Unlimited products</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Advanced payment options</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Inventory & order management</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Customer accounts</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Basic analytics dashboard</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Multi-vendor marketplace</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Business E-Commerce Store" data-price="R 12 500" data-category="E-Commerce">Get Started</button>
+              </article>
+
+              <article class="pricing-card reveal reveal-delay-2">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">For enterprise solutions</span>
+                  <h3 class="pricing-title">Enterprise Store</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 25 000</span>
+                    <span class="price-note">once-off + custom hosting</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> Everything in Business Store</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Multi-vendor marketplace</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Advanced analytics & reporting</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Custom integrations</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 24/7 premium support</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> SLA guarantee</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Enterprise E-Commerce Store" data-price="R 25 000" data-category="E-Commerce">Get Started</button>
+              </article>
+            </div>
+          </div>
+
+          <!-- Logo & Branding Tab -->
+          <div class="pricing-content" id="logo">
+            <div class="pricing-grid">
+              <article class="pricing-card reveal">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">Essential branding package</span>
+                  <h3 class="pricing-title">Logo Package</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 2 500</span>
+                    <span class="price-note">complete branding package</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> 3 logo concepts</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 3 revisions per concept</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Vector files + all formats</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Brand guidelines</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Business card design</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Social media templates</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Logo Branding Package" data-price="R 2 500" data-category="Logo & Branding">Get Started</button>
+              </article>
+
+              <article class="pricing-card popular reveal reveal-delay-1">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">Complete brand identity</span>
+                  <span class="popular-badge">Most Popular</span>
+                  <h3 class="pricing-title">Brand Identity</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 7 500</span>
+                    <span class="price-note">full brand package</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> Everything in Logo Package</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Business card design</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Letterhead & envelope</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Social media templates</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Brand color palette</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Typography selection</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Complete Brand Identity" data-price="R 7 500" data-category="Logo & Branding">Get Started</button>
+              </article>
+
+              <article class="pricing-card reveal reveal-delay-2">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">For rebranding projects</span>
+                  <h3 class="pricing-title">Brand Refresh</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 12 500</span>
+                    <span class="price-note">rebranding package</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> Brand audit & analysis</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Logo redesign</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Updated brand guidelines</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> New marketing materials</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Implementation strategy</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 3 months brand support</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Brand Refresh Package" data-price="R 12 500" data-category="Logo & Branding">Get Started</button>
+              </article>
+            </div>
+          </div>
+
+          <!-- Social Media Tab -->
+          <div class="pricing-content" id="social">
+            <div class="pricing-grid">
+              <article class="pricing-card reveal">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">Monthly social media management</span>
+                  <h3 class="pricing-title">Social Starter</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 2 500</span>
+                    <span class="price-note">per month</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> 8 posts per month</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 2 platforms</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Content creation</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Basic engagement monitoring</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Ad management</li>
+                  <li class="feature-disabled"><span class="material-symbols-outlined">cancel</span> Monthly strategy report</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Social Media Starter" data-price="R 2 500/month" data-category="Social Media">Get Started</button>
+              </article>
+
+              <article class="pricing-card popular reveal reveal-delay-1">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">Complete social media solution</span>
+                  <span class="popular-badge">Most Popular</span>
+                  <h3 class="pricing-title">Social Pro</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 5 500</span>
+                    <span class="price-note">per month</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> 16 posts per month</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> 4 platforms</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Content + graphic design</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Community management</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Monthly analytics report</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Ad campaign management</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Social Media Pro" data-price="R 5 500/month" data-category="Social Media">Get Started</button>
+              </article>
+
+              <article class="pricing-card reveal reveal-delay-2">
+                <div class="pricing-card-header">
+                  <span class="pricing-badge">For established brands</span>
+                  <h3 class="pricing-title">Social Enterprise</h3>
+                  <div class="pricing-price">
+                    <span class="price-amount">R 12 500</span>
+                    <span class="price-note">per month</span>
+                  </div>
+                </div>
+                <ul class="pricing-features">
+                  <li><span class="material-symbols-outlined">check_circle</span> 24+ posts per month</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Unlimited platforms</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Advanced content strategy</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Influencer partnerships</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Weekly performance reports</li>
+                  <li><span class="material-symbols-outlined">check_circle</span> Crisis management</li>
+                </ul>
+                <button class="btn btn-primary pricing-cta" data-package="Social Media Enterprise" data-price="R 12 500/month" data-category="Social Media">Get Started</button>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <svg class="logo-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.1288 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z" fill="currentColor"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z" fill="currentColor"/>
+            </svg>
+            <span class="logo-text">NSZ GROUP</span>
+          </a>
+          <p class="footer-description">
+            Building infrastructure and technology solutions for government and private sector clients across Africa.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link" aria-label="Follow us on LinkedIn">
+              <span class="material-symbols-outlined">work</span>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Follow us on Twitter">
+              <span class="material-symbols-outlined">chat</span>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Follow us on Facebook">
+              <span class="material-symbols-outlined">public</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="services.html#ict">ICT Infrastructure</a></li>
+            <li><a href="services.html#construction">Construction</a></li>
+            <li><a href="pricing.html">Digital Solutions</a></li>
+            <li><a href="work.html">Our Work</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="work.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="footer-contact-item">
+            <span class="material-symbols-outlined">location_on</span>
+            <span>Johannesburg, South Africa</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="material-symbols-outlined">phone</span>
+            <span>+27 63 437 1374</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="material-symbols-outlined">email</span>
+            <span>info@nszgroup.co.za</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p class="footer-copyright">
+            © 2024 NSZ Group. All rights reserved.
+          </p>
+          <nav class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════
+       PRICING MODAL
+  ══════════════════════════════════════════ -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="pricing-modal" role="dialog" aria-labelledby="modal-title" aria-describedby="modal-subtitle">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+
+      <div class="modal-content">
+        <header class="modal-header">
+          <h2 id="modal-title">Let's Get You Started</h2>
+          <p id="modal-subtitle">Fill in your details and our team will reach out to confirm your package and next steps.</p>
+        </header>
+
+        <div class="modal-package-summary" id="modal-package-summary">
+          <div class="package-summary-card">
+            <h3>Selected Package</h3>
+            <p id="selected-package">Package Name — Service Category</p>
+            <p id="selected-price">Price: R amount</p>
+          </div>
+        </div>
+
+        <form id="pricing-form" novalidate>
+          <!-- Hidden fields for package data -->
+          <input type="hidden" name="package" value="">
+          <input type="hidden" name="category" value="">
+          <input type="hidden" name="price" value="">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="modal-full-name">Full Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="modal-full-name" name="full_name" placeholder="Your full name" required>
+              <span class="error-message" id="name-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="modal-email">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="modal-email" name="email" placeholder="your@email.com" required>
+              <span class="error-message" id="email-error"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="modal-phone">Phone Number <span aria-hidden="true">*</span></label>
+            <input type="tel" id="modal-phone" name="phone" placeholder="e.g. 071 234 5678" required>
+            <span class="error-message" id="phone-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="modal-business">Business Name</label>
+            <input type="text" id="modal-business" name="business" placeholder="Your business or brand name (optional)">
+          </div>
+
+          <div class="form-group">
+            <label for="modal-time">Best Time to Contact <span aria-hidden="true">*</span></label>
+            <select id="modal-time" name="contact_time" required>
+              <option value="" disabled selected>Choose a time slot</option>
+              <option value="Morning (8am – 11am)">Morning (8am – 11am)</option>
+              <option value="Midday (11am – 1pm)">Midday (11am – 1pm)</option>
+              <option value="Afternoon (1pm – 4pm)">Afternoon (1pm – 4pm)</option>
+              <option value="Late Afternoon (4pm – 6pm)">Late Afternoon (4pm – 6pm)</option>
+            </select>
+            <span class="error-message" id="time-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label>Preferred Contact Method <span aria-hidden="true">*</span></label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="contact_method" value="whatsapp" required>
+                <span class="radio-label">
+                  <span class="material-symbols-outlined">chat</span>
+                  WhatsApp me
+                </span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="contact_method" value="email">
+                <span class="radio-label">
+                  <span class="material-symbols-outlined">mail</span>
+                  Email me
+                </span>
+              </label>
+            </div>
+            <span class="error-message" id="method-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="modal-notes">Additional Notes</label>
+            <textarea id="modal-notes" name="notes" placeholder="Tell us more about your project, deadline, or any specific requirements (optional)" rows="4"></textarea>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary" id="modal-submit">
+              Send My Request <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+          </div>
+        </form>
+
+        <div class="form-feedback" id="form-feedback-modal"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS FILES — load in this exact order -->
+  <script src="js/main.js" defer></script>
+  <script src="js/nav.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/tabs.js" defer></script>
+  <script src="js/modal.js" defer></script>
+  <script src="js/form.js" defer></script>
+  <script src="js/redirect.js" defer></script>
+</body>
+</html>

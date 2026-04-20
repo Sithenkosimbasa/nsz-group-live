@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NSZ Group — Building Infrastructure & Technology</title>
+
+  <!-- CSS FILES — link in this exact order -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/footer.css">
+  
+  <!-- Material Symbols for dark mode toggle -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="nav-wrapper">
+        <!-- Logo -->
+        <a href="index.html" class="logo-link" aria-label="NSZ Group – Home">
+          <svg class="logo-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.1288 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z" fill="currentColor"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z" fill="currentColor"/>
+          </svg>
+          <span class="logo-text">NSZ GROUP</span>
+        </a>
+
+        <!-- Desktop navigation -->
+        <nav class="nav-desktop" aria-label="Primary navigation">
+          <a href="index.html" class="active" aria-current="page">Home</a>
+          <a href="ict.html">ICT Services</a>
+          <a href="construction.html">Construction</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#our-websites">Our Work</a>
+          <a href="contact.html">Contact</a>
+          <button class="btn btn-primary" data-modal="quote">Get a Quote</button>
+        </nav>
+
+        <!-- Dark mode toggle -->
+        <button class="dark-mode-toggle"
+                id="dark-mode-toggle"
+                aria-label="Toggle dark mode"
+                title="Toggle dark mode">
+          <span class="material-symbols-outlined"
+                id="dark-mode-icon">dark_mode</span>
+        </button>
+
+        <!-- Mobile toggle -->
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+
+      <!-- Mobile navigation -->
+      <nav class="nav-mobile" aria-label="Mobile navigation">
+        <ul>
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="ict.html">ICT Services</a></li>
+          <li><a href="construction.html">Construction</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#our-websites">Our Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button class="btn btn-primary" data-modal="quote">Get a Quote</button></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile overlay -->
+      <div class="nav-overlay"></div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section">
+      <div class="container">
+        <div class="hero-content reveal">
+          <h1 class="hero-title">
+            Building <span class="highlight">Infrastructure</span><br>
+            & Technology Solutions
+          </h1>
+          <p class="hero-subtitle">
+            NSZ Group delivers integrated construction, ICT, and infrastructure solutions
+            for government and private sector clients. Empowering growth through innovation
+            and reliability across Africa.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value" data-count="50">0</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" data-count="15">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" data-count="100">0</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">
+              Our Services <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+            <a href="#our-websites" class="btn btn-ghost">
+              View Our Work <span class="material-symbols-outlined">work</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background elements -->
+      <video autoplay muted loop playsinline class="hero-bg">
+        <source src="assets/mp4/NSZ-GROUP_HERO.mp4" type="video/mp4">
+      </video>
+      <div class="hero-decoration"></div>
+      <div class="hero-decoration-2"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+      <div class="container">
+        <header class="services-header reveal">
+          <span class="eyebrow">What We Do</span>
+          <h2 class="section-title">Comprehensive Solutions</h2>
+          <p class="services-intro">
+            From digital infrastructure to physical construction, we provide end-to-end
+            solutions that drive growth and innovation across sectors.
+          </p>
+        </header>
+
+        <div class="services-grid stagger-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">
+              <span class="material-symbols-outlined">dns</span>
+            </div>
+            <h3 class="service-title">ICT Infrastructure</h3>
+            <p class="service-description">
+              Complete technology solutions including network design, implementation,
+              cybersecurity, and digital transformation services.
+            </p>
+            <ul class="service-features">
+              <li><span class="material-symbols-outlined">check_circle</span> Network Architecture & Design</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Cybersecurity Solutions</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Cloud Migration Services</li>
+              <li><span class="material-symbols-outlined">check_circle</span> IT Support & Maintenance</li>
+            </ul>
+            <a href="ict.html" class="service-cta">
+              Learn More <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-icon">
+              <span class="material-symbols-outlined">engineering</span>
+            </div>
+            <h3 class="service-title">Construction</h3>
+            <p class="service-description">
+              Professional construction services with expertise in infrastructure
+              development, project management, and quality assurance.
+            </p>
+            <ul class="service-features">
+              <li><span class="material-symbols-outlined">check_circle</span> Infrastructure Development</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Project Management</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Quality Assurance</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Sustainable Building</li>
+            </ul>
+            <a href="construction.html" class="service-cta">
+              Learn More <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-icon">
+              <span class="material-symbols-outlined">web</span>
+            </div>
+            <h3 class="service-title">Digital Solutions</h3>
+            <p class="service-description">
+              Custom websites, mobile applications, and digital marketing solutions
+              that enhance your online presence and business growth.
+            </p>
+            <ul class="service-features">
+              <li><span class="material-symbols-outlined">check_circle</span> Custom Website Development</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Mobile App Development</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Digital Marketing</li>
+              <li><span class="material-symbols-outlined">check_circle</span> E-commerce Solutions</li>
+            </ul>
+            <a href="pricing.html" class="service-cta">
+              View Pricing <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <!-- Assets folder: assets/work/ — add real images here -->
+    <section class="work section" id="work">
+      <div class="container">
+        <header class="work-header reveal">
+          <span class="eyebrow">Our Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="work-intro">
+            Explore our diverse portfolio of successful projects across ICT infrastructure,
+            construction, and digital solutions.
+          </p>
+        </header>
+
+        <div class="work-tabs reveal reveal-delay-1">
+          <button class="work-tab active" data-tab="websites">Websites</button>
+          <button class="work-tab" data-tab="posters">Posters & Design</button>
+        </div>
+
+        <div class="work-content">
+          <!-- Websites Tab -->
+          <div class="work-tab-content active" data-tab="websites" id="our-websites">
+            <!--
+              WEBSITE SCREENSHOTS — DROP FILES INTO: assets/work/
+              ─────────────────────────────────────────────────────
+              website-1.jpg → SheAté screenshot
+              website-2.jpg → Seveneity screenshot
+              website-3.jpg → Talent Tide screenshot
+              website-4.jpg → Java Nomad screenshot
+
+              Recommended size: 1200 x 800px (landscape)
+              Format: JPG or PNG, max 500kb per image
+              ─────────────────────────────────────────────────────
+            -->
+            <div class="work-grid stagger-grid">
+              <article class="work-item reveal">
+                <img src="assets/work/website-1.jpg" alt="SheAté food ordering web app screenshot" loading="lazy">
+                <div class="work-overlay">
+                  <h3 class="work-title">SheAté</h3>
+                  <p class="work-category">Food & Lifestyle</p>
+                </div>
+                <a href="#" class="work-cta" target="_blank" rel="noopener noreferrer" aria-label="View SheAté project details">
+                  <span class="material-symbols-outlined">visibility</span>
+                </a>
+              </article>
+
+              <article class="work-item reveal reveal-delay-1">
+                <img src="assets/work/website-2.jpg" alt="Seveneity clothing and accessories web app screenshot" loading="lazy">
+                <div class="work-overlay">
+                  <h3 class="work-title">Seveneity</h3>
+                  <p class="work-category">E-Commerce</p>
+                </div>
+                <a href="#" class="work-cta" target="_blank" rel="noopener noreferrer" aria-label="View Seveneity project details">
+                  <span class="material-symbols-outlined">visibility</span>
+                </a>
+              </article>
+
+              <article class="work-item reveal reveal-delay-2">
+                <img src="assets/work/website-3.jpg" alt="Talent Tide job and freelancer finding website screenshot" loading="lazy">
+                <div class="work-overlay">
+                  <h3 class="work-title">Talent Tide</h3>
+                  <p class="work-category">Jobs & Freelance</p>
+                </div>
+                <a href="#" class="work-cta" target="_blank" rel="noopener noreferrer" aria-label="View Talent Tide project details">
+                  <span class="material-symbols-outlined">visibility</span>
+                </a>
+              </article>
+
+              <article class="work-item reveal reveal-delay-3">
+                <img src="assets/work/website-4.jpg" alt="Java Nomad coffee shop locating app screenshot" loading="lazy">
+                <div class="work-overlay">
+                  <h3 class="work-title">Java Nomad</h3>
+                  <p class="work-category">Lifestyle & Maps</p>
+                </div>
+                <a href="#" class="work-cta" target="_blank" rel="noopener noreferrer" aria-label="View Java Nomad project details">
+                  <span class="material-symbols-outlined">visibility</span>
+                </a>
+              </article>
+            </div>
+
+            <div class="work-view-all reveal reveal-delay-4">
+              <h3>Have a product idea? Let's bring it to life.</h3>
+              <button class="btn btn-primary" data-package="Website Design" data-price="From R 1 500" data-category="Websites">Get a Quote</button>
+            </div>
+          </div>
+
+          <!-- Posters Tab -->
+          <div class="work-tab-content" data-tab="posters" id="our-posters">
+            <!--
+              POSTER IMAGES — DROP FILES INTO: assets/work/
+              ─────────────────────────────────────────────────────
+              poster-1.jpg → Client poster 1
+              poster-2.jpg → Client poster 2
+              poster-3.jpg → Client poster 3
+              poster-4.jpg → Client poster 4
+
+              Recommended size: 800 x 1100px (portrait) or
+                                1080 x 1080px (square)
+              Format: JPG or PNG, max 400kb per image
+              ─────────────────────────────────────────────────────
+            -->
+            <div class="work-grid stagger-grid">
+              <article class="work-item reveal">
+                <img src="assets/work/poster-1.jpg" alt="Client poster design 1 by NSZ Group" loading="lazy">
+                <div class="work-overlay">
+                  <h3 class="work-title">Client Project 01</h3>
+                  <p class="work-category">Event Poster</p>
+                </div>
+                <a href="#" class="work-cta" target="_blank" rel="noopener noreferrer" aria-label="View Client Project 01 details">
+                  <span class="material-symbols-outlined">visibility</span>
+                </a>
+              </article>
+
+              <article class="work-item reveal reveal-delay-1">
+                <img src="assets/work/poster-2.jpg" alt="Client poster design 2 by NSZ Group" loading="lazy">
+                <div class="work-overlay">
+                  <h3 class="work-title">Client Project 02</h3>
+                  <p class="work-category">Promotional Design</p>
+                </div>
+                <a href="#" class="work-cta" target="_blank" rel="noopener noreferrer" aria-label="View Client Project 02 details">
+                  <span class="material-symbols-outlined">visibility</span>
+                </a>
+              </article>
+
+              <article class="work-item reveal reveal-delay-2">
+                <img src="assets/work/poster-3.jpg" alt="Client poster design 3 by NSZ Group" loading="lazy">
+                <div class="work-overlay">
+                  <h3 class="work-title">Client Project 03</h3>
+                  <p class="work-category">Brand Marketing</p>
+                </div>
+                <a href="#" class="work-cta" target="_blank" rel="noopener noreferrer" aria-label="View Client Project 03 details">
+                  <span class="material-symbols-outlined">visibility</span>
+                </a>
+              </article>
+
+              <article class="work-item reveal reveal-delay-3">
+                <img src="assets/work/poster-4.jpg" alt="Client poster design 4 by NSZ Group" loading="lazy">
+                <div class="work-overlay">
+                  <h3 class="work-title">Client Project 04</h3>
+                  <p class="work-category">Event & Social Media</p>
+                </div>
+                <a href="#" class="work-cta" target="_blank" rel="noopener noreferrer" aria-label="View Client Project 04 details">
+                  <span class="material-symbols-outlined">visibility</span>
+                </a>
+              </article>
+            </div>
+
+            <div class="work-view-all reveal reveal-delay-4">
+              <h3>Need a poster or design that actually gets noticed?</h3>
+              <button class="btn btn-primary" data-package="Startup Poster" data-price="From R 150" data-category="Posters & Design">Get a Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section will go here -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <svg class="logo-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.1288 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z" fill="currentColor"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z" fill="currentColor"/>
+            </svg>
+            <span class="logo-text">NSZ GROUP</span>
+          </a>
+          <p class="footer-description">
+            Building infrastructure and technology solutions for government and private sector clients across Africa.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link" aria-label="Follow us on LinkedIn">
+              <span class="material-symbols-outlined">work</span>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Follow us on Twitter">
+              <span class="material-symbols-outlined">chat</span>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Follow us on Facebook">
+              <span class="material-symbols-outlined">public</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="ict.html">ICT Services</a></li>
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="index.html#our-websites">Our Work</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#our-websites">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="footer-contact-item">
+            <span class="material-symbols-outlined">location_on</span>
+            <span>Cape Town, South Africa</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="material-symbols-outlined">phone</span>
+            <span>+27 63 437 1374</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="material-symbols-outlined">email</span>
+            <span>info@nszgroup.co.za</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p class="footer-copyright">
+            © 2024 NSZ Group. All rights reserved.
+          </p>
+          <nav class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS FILES — load in this exact order -->
+  <script src="js/main.js" defer></script>
+  <script src="js/nav.js" defer></script>
+  <script src="js/animations.js" defer></script>
+</body>
+</html>

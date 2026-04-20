@@ -1,0 +1,257 @@
+/* ============================================
+   ANIMATIONS.CSS - Animation Styles
+   Matches NSZ Group Design System
+   ============================================ */
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Slide Up Animation */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  opacity: 0;
+  animation: slideUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Stagger Children */
+.privacy-section:nth-child(1) { animation-delay: 0.1s; }
+.privacy-section:nth-child(2) { animation-delay: 0.15s; }
+.privacy-section:nth-child(3) { animation-delay: 0.2s; }
+.privacy-section:nth-child(4) { animation-delay: 0.25s; }
+.privacy-section:nth-child(5) { animation-delay: 0.3s; }
+.privacy-section:nth-child(6) { animation-delay: 0.35s; }
+.privacy-section:nth-child(7) { animation-delay: 0.4s; }
+.privacy-section:nth-child(8) { animation-delay: 0.45s; }
+.privacy-section:nth-child(9) { animation-delay: 0.5s; }
+.privacy-section:nth-child(10) { animation-delay: 0.55s; }
+.privacy-section:nth-child(11) { animation-delay: 0.6s; }
+.privacy-section:nth-child(12) { animation-delay: 0.65s; }
+.privacy-section:nth-child(13) { animation-delay: 0.7s; }
+.privacy-section:nth-child(14) { animation-delay: 0.75s; }
+.privacy-section:nth-child(15) { animation-delay: 0.8s; }
+
+/* Scroll Reveal (for JS-triggered animations) */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover Lift Effect */
+.hover-lift {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Pulse Animation for CTAs */
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(11, 61, 147, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(11, 61, 147, 0);
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Shimmer Loading Effect */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-surface) 25%,
+    var(--color-surface-alt) 50%,
+    var(--color-surface) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Fade In Scale */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in-scale {
+  animation: fadeInScale 0.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Slide In From Right */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Slide In From Left */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.bounce {
+  animation: bounce 1s;
+}
+
+/* Rotate Animation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotate 1s linear infinite;
+}
+
+/* Underline Expand Animation */
+@keyframes underlineExpand {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Glow Pulse */
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(11, 61, 147, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(11, 61, 147, 0.4);
+  }
+}
+
+.glow-pulse {
+  animation: glowPulse 2s ease-in-out infinite;
+}
+
+/* Dark Mode Adjustments */
+body.dark-mode .pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(77, 142, 240, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(77, 142, 240, 0);
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .fade-in,
+  .slide-up,
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Print - Disable Animations */
+@media print {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

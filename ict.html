@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NSZ Group delivers website design, social media management, enterprise networking, and CCTV installation across South Africa. Premium ICT solutions for businesses of all sizes.">
+  <title>NSZ Group | ICT & Digital Solutions</title>
+
+  <!-- CSS FILES — link in this exact order -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/footer.css">
+  
+  <!-- Material Symbols for dark mode toggle -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="nav-wrapper">
+        <!-- Logo -->
+        <a href="index.html" class="logo-link" aria-label="NSZ Group – Home">
+          <svg class="logo-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.1288 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z" fill="currentColor"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z" fill="currentColor"/>
+          </svg>
+          <span class="logo-text">NSZ GROUP</span>
+        </a>
+
+        <!-- Desktop navigation -->
+        <nav class="nav-desktop" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="ict.html" class="active" aria-current="page">ICT Services</a>
+          <a href="construction.html">Construction</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#our-websites">Our Work</a>
+          <a href="contact.html">Contact</a>
+          <button class="btn btn-primary" data-modal="quote">Get a Quote</button>
+        </nav>
+
+        <!-- Dark mode toggle -->
+        <button class="dark-mode-toggle"
+                id="dark-mode-toggle"
+                aria-label="Toggle dark mode"
+                title="Toggle dark mode">
+          <span class="material-symbols-outlined"
+                id="dark-mode-icon">dark_mode</span>
+        </button>
+
+        <!-- Mobile toggle -->
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+
+      <!-- Mobile navigation -->
+      <nav class="nav-mobile" aria-label="Mobile navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ict.html" class="active" aria-current="page">ICT Services</a></li>
+          <li><a href="construction.html">Construction</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#our-websites">Our Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button class="btn btn-primary" data-modal="quote">Get a Quote</button></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile overlay -->
+      <div class="nav-overlay"></div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- ICT Hero Section -->
+    <section class="contact-hero" aria-label="ICT Services Hero">
+      <div class="contact-hero-bg" aria-hidden="true">
+        <img
+          src="assets/images/ict-hero.jpg"
+          alt=""
+          loading="eager"
+        />
+      </div>
+      <div class="container">
+        <div class="contact-hero-content reveal">
+          <p class="eyebrow">ICT & Digital Solutions</p>
+          <h1>Technology That<br>
+            <span class="accent" style="color: var(--color-accent);">
+              Works As Hard
+            </span><br>As You Do
+          </h1>
+          <p>
+            From websites to enterprise networks — NSZ Group
+            delivers end-to-end ICT solutions built for South
+            African businesses that are serious about growth.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services section" id="ict-services"
+             aria-labelledby="ict-services-heading">
+      <div class="container">
+
+        <div class="services-header reveal">
+          <p class="eyebrow">What We Offer</p>
+          <h2 class="section-title" id="ict-services-heading">
+            Our ICT Services
+          </h2>
+          <p>Four core services. One reliable team.
+             Delivered on time, every time.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Card 1: Website Design -->
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">
+              <span class="material-symbols-outlined">computer</span>
+            </div>
+            <h3>Website Design & Development</h3>
+            <p>
+              We design and build fast, modern, mobile-first
+              websites that convert visitors into customers.
+              From single-page sites to full multi-page platforms,
+              every project is built to perform.
+            </p>
+            <ul class="service-list">
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Custom responsive design
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Single page & multi-page websites
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                E-commerce & online stores
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                SEO optimised from day one
+              </li>
+            </ul>
+            <a href="index.html#pricing" class="btn btn-ghost">
+              View Pricing
+              <span class="material-symbols-outlined">east</span>
+            </a>
+          </article>
+
+          <!-- Card 2: Social Media -->
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-icon" aria-hidden="true">
+              <span class="material-symbols-outlined">
+                thumb_up
+              </span>
+            </div>
+            <h3>Social Media Management</h3>
+            <p>
+              Consistent, professional social media content
+              that builds your brand, grows your audience,
+              and drives real engagement — without you
+              lifting a finger.
+            </p>
+            <ul class="service-list">
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Content creation & scheduling
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Facebook, Instagram & more
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Monthly performance reports
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Paid ad management available
+              </li>
+            </ul>
+            <a href="index.html#pricing" class="btn btn-ghost">
+              View Pricing
+              <span class="material-symbols-outlined">east</span>
+            </a>
+          </article>
+
+          <!-- Card 3: Networking -->
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-icon" aria-hidden="true">
+              <span class="material-symbols-outlined">lan</span>
+            </div>
+            <h3>Enterprise Networking</h3>
+            <p>
+              Reliable, secure network infrastructure designed
+              for businesses that can't afford downtime.
+              We design, install, and maintain networks that
+              scale with your growth.
+            </p>
+            <ul class="service-list">
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                LAN / WAN setup & configuration
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Wireless network installation
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Firewall & network security
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Ongoing maintenance & support
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn-ghost">
+              Get a Quote
+              <span class="material-symbols-outlined">east</span>
+            </a>
+          </article>
+
+          <!-- Card 4: CCTV -->
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-icon" aria-hidden="true">
+              <span class="material-symbols-outlined">
+                videocam
+              </span>
+            </div>
+            <h3>CCTV Installation & Configuration</h3>
+            <p>
+              Professional CCTV systems that protect your
+              property, staff, and assets. We handle everything
+              from site assessment to full installation
+              and remote monitoring setup.
+            </p>
+            <ul class="service-list">
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Site survey & system design
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                HD & IP camera installation
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                Remote viewing setup
+              </li>
+              <li>
+                <span class="material-symbols-outlined"
+                      aria-hidden="true">check_circle</span>
+                NVR / DVR configuration
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn-ghost">
+              Get a Quote
+              <span class="material-symbols-outlined">east</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose NSZ for ICT -->
+    <section class="why-nsz section"
+             aria-labelledby="why-ict-heading">
+      <div class="container">
+        <div class="why-nsz-header reveal">
+          <h2 id="why-ict-heading">
+            Why Businesses Trust NSZ Group
+          </h2>
+          <p>We're not just vendors — we're your
+             long-term technology partner.</p>
+        </div>
+        <div class="why-nsz-grid">
+
+          <div class="why-card reveal">
+            <div class="why-card-icon" aria-hidden="true">
+              <span class="material-symbols-outlined">
+                speed
+              </span>
+            </div>
+            <h3>Fast Turnaround</h3>
+            <p>
+              We work to your deadlines, not ours.
+              Most projects are scoped, started, and
+              delivered faster than industry standard.
+            </p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-1">
+            <div class="why-card-icon" aria-hidden="true">
+              <span class="material-symbols-outlined">
+                support_agent
+              </span>
+            </div>
+            <h3>Local Support</h3>
+            <p>
+              Based in Cape Town, South Africa. When you
+              need us, we're reachable — by phone,
+              WhatsApp, or in person.
+            </p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-2">
+            <div class="why-card-icon" aria-hidden="true">
+              <span class="material-symbols-outlined">
+                attach_money
+              </span>
+            </div>
+            <h3>Startup-Friendly Pricing</h3>
+            <p>
+              Premium quality doesn't have to mean premium
+              prices. We offer packages for every budget —
+              from R150 posters to enterprise builds.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Teaser -->
+    <section class="projects section"
+             id="ict-work"
+             aria-labelledby="ict-work-heading">
+      <div class="container">
+
+        <div class="projects-header">
+          <div>
+            <p class="eyebrow">Our Work</p>
+            <h2 class="section-title" id="ict-work-heading">
+              Websites We've Built
+            </h2>
+          </div>
+          <a href="index.html#our-websites"
+             class="btn btn-ghost hide-mobile">
+            View All
+            <span class="material-symbols-outlined">
+              grid_view
+            </span>
+          </a>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/work/website-1.jpg"
+                   alt="SheAté food ordering web app"
+                   loading="lazy"/>
+              <span class="project-tag">Food & Lifestyle</span>
+            </div>
+            <div class="project-body">
+              <h3>SheAté</h3>
+              <p>Premium food ordering web app built for
+                 the South African market.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-img">
+              <img src="assets/work/website-2.jpg"
+                   alt="Seveneity clothing web app"
+                   loading="lazy"/>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <div class="project-body">
+              <h3>Seveneity</h3>
+              <p>Clothing and accessories e-commerce web app
+                 designed for a modern SA audience.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-img">
+              <img src="assets/work/website-3.jpg"
+                   alt="Talent Tide job platform"
+                   loading="lazy"/>
+              <span class="project-tag">Jobs & Freelance</span>
+            </div>
+            <div class="project-body">
+              <h3>Talent Tide</h3>
+              <p>Job and freelancer matching platform
+                 for South African talent.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <div style="text-align:center; margin-top: var(--space-xl);">
+          <a href="index.html#our-websites"
+             class="btn btn-primary">
+            See All Projects
+            <span class="material-symbols-outlined">
+              arrow_forward
+            </span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section">
+      <div class="container">
+        <div class="cta-content reveal">
+          <h2>Ready to upgrade your technology?</h2>
+          <p>
+            Whether you need a new website, a managed
+            social media presence, a secure network,
+            or a full CCTV system — we're ready to help.
+            Let's build something that works.
+          </p>
+          <a href="contact.html" class="btn btn-primary">
+            Get In Touch
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <svg class="logo-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.1288 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z" fill="currentColor"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z" fill="currentColor"/>
+            </svg>
+            <span class="logo-text">NSZ GROUP</span>
+          </a>
+          <p class="footer-description">
+            Building infrastructure and technology solutions for government and private sector clients across Africa.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link" aria-label="Follow us on LinkedIn">
+              <span class="material-symbols-outlined">work</span>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Follow us on Twitter">
+              <span class="material-symbols-outlined">chat</span>
+            </a>
+            <a href="#" class="footer-social-link" aria-label="Follow us on Facebook">
+              <span class="material-symbols-outlined">public</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="ict.html">ICT Services</a></li>
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="index.html#pricing">Digital Solutions</a></li>
+            <li><a href="index.html#our-websites">Our Work</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#our-websites">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="footer-contact-item">
+            <span class="material-symbols-outlined">phone</span>
+            <span>+27 63 437 1374</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="material-symbols-outlined">email</span>
+            <span>info@nszgroup.co.za</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+          <p class="footer-copyright">
+            © 2024 NSZ Group. All rights reserved.
+          </p>
+          <nav class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS FILES — load in this exact order -->
+  <script src="js/main.js" defer></script>
+  <script src="js/nav.js" defer></script>
+  <script src="js/animations.js" defer></script>
+</body>
+</html>
