@@ -1,0 +1,50 @@
+/* Client logo strip */
+
+.client-logos {
+  padding: var(--space-xl) 0;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.client-logos-label {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-light);
+  margin-bottom: var(--space-lg);
+}
+
+.client-logos-track {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xl);
+}
+
+.client-logo {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  letter-spacing: 0.03em;
+  color: var(--color-text-light);
+  opacity: 0.75;
+  transition: all var(--transition-base);
+}
+
+.client-logo:hover {
+  color: var(--color-primary);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .client-logos-track {
+    gap: var(--space-lg);
+  }
+
+  .client-logo {
+    font-size: 1.1rem;
+  }
+}

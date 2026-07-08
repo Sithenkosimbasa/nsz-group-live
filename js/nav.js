@@ -53,15 +53,62 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Mobile dropdown toggle
-  const mobileDropdownToggles = navMobile.querySelectorAll('.dropdown-toggle');
+  if (navMobile) {
+    const mobileDropdownToggles = navMobile.querySelectorAll('.dropdown-toggle');
 
-  mobileDropdownToggles.forEach(toggle => {
+    mobileDropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        const dropdownMenu = toggle.nextElementSibling;
+        if (dropdownMenu) {
+          const isOpen = dropdownMenu.classList.toggle('open');
+          toggle.classList.toggle('open', isOpen);
+        }
+      });
+    });
+  }
+
+  // Desktop mega-menu dropdown (click + keyboard; hover is handled by CSS)
+  const desktopDropdowns = document.querySelectorAll('.nav-desktop .dropdown');
+
+  desktopDropdowns.forEach(dropdown => {
+    const toggle = dropdown.querySelector('.dropdown-toggle');
+    const menu = dropdown.querySelector('.dropdown-menu');
+    if (!toggle || !menu) return;
+
     toggle.addEventListener('click', (e) => {
       e.preventDefault();
-      const dropdownMenu = toggle.nextElementSibling;
-      if (dropdownMenu) {
-        const isOpen = dropdownMenu.classList.toggle('open');
-        toggle.classList.toggle('open', isOpen);
+      const isOpen = menu.classList.toggle('open');
+      toggle.classList.toggle('open', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen);
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    desktopDropdowns.forEach(dropdown => {
+      if (!dropdown.contains(e.target)) {
+        const toggle = dropdown.querySelector('.dropdown-toggle');
+        const menu = dropdown.querySelector('.dropdown-menu');
+        if (menu) menu.classList.remove('open');
+        if (toggle) {
+          toggle.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
       }
     });
   });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      desktopDropdowns.forEach(dropdown => {
+        const toggle = dropdown.querySelector('.dropdown-toggle');
+        const menu = dropdown.querySelector('.dropdown-menu');
+        if (menu) menu.classList.remove('open');
+        if (toggle) {
+          toggle.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+  });
+});

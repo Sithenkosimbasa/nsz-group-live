@@ -12,8 +12,13 @@
   <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/services.css">
   <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="css/logos.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/testimonials.css">
+  <link rel="stylesheet" href="css/cta.css">
   <link rel="stylesheet" href="css/footer.css">
-  
+
   <!-- Material Symbols for dark mode toggle -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
@@ -34,13 +39,47 @@
         <!-- Desktop navigation -->
         <nav class="nav-desktop" aria-label="Primary navigation">
           <a href="index.html" class="active" aria-current="page">Home</a>
-          <a href="ict.html">ICT Services</a>
-          <a href="construction.html">Construction</a>
-          <a href="index.html#pricing">Pricing</a>
+
+          <div class="dropdown mega-dropdown">
+            <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              Services <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+            </button>
+            <div class="dropdown-menu mega-menu" role="menu">
+              <a href="ict.html" class="mega-menu-item" role="menuitem">
+                <span class="mega-menu-icon material-symbols-outlined" aria-hidden="true">dns</span>
+                <span class="mega-menu-text">
+                  <strong>ICT Services</strong>
+                  <small>Networks, cybersecurity & cloud</small>
+                </span>
+              </a>
+              <a href="construction.html" class="mega-menu-item" role="menuitem">
+                <span class="mega-menu-icon material-symbols-outlined" aria-hidden="true">engineering</span>
+                <span class="mega-menu-text">
+                  <strong>Construction</strong>
+                  <small>Infrastructure & project delivery</small>
+                </span>
+              </a>
+              <a href="pricing.html" class="mega-menu-item" role="menuitem">
+                <span class="mega-menu-icon material-symbols-outlined" aria-hidden="true">web</span>
+                <span class="mega-menu-text">
+                  <strong>Digital Solutions</strong>
+                  <small>Websites, apps & digital marketing</small>
+                </span>
+              </a>
+            </div>
+          </div>
+
           <a href="index.html#our-websites">Our Work</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="index.html#about">About</a>
           <a href="contact.html">Contact</a>
-          <button class="btn btn-primary" data-modal="quote">Get a Quote</button>
+          <a href="pricing.html#pricing" class="btn btn-primary">Get a Quote</a>
         </nav>
+
+        <!-- Search toggle -->
+        <button class="nav-search-toggle" aria-label="Search site" title="Search site (press /)">
+          <span class="material-symbols-outlined">search</span>
+        </button>
 
         <!-- Dark mode toggle -->
         <button class="dark-mode-toggle"
@@ -61,12 +100,19 @@
       <nav class="nav-mobile" aria-label="Mobile navigation">
         <ul>
           <li><a href="index.html" class="active" aria-current="page">Home</a></li>
-          <li><a href="ict.html">ICT Services</a></li>
-          <li><a href="construction.html">Construction</a></li>
-          <li><a href="index.html#pricing">Pricing</a></li>
+          <li>
+            <button type="button" class="dropdown-toggle">Services <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></button>
+            <ul class="dropdown-menu">
+              <li><a href="ict.html">ICT Services</a></li>
+              <li><a href="construction.html">Construction</a></li>
+              <li><a href="pricing.html">Digital Solutions</a></li>
+            </ul>
+          </li>
           <li><a href="index.html#our-websites">Our Work</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="index.html#about">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><button class="btn btn-primary" data-modal="quote">Get a Quote</button></li>
+          <li><a href="pricing.html#pricing" class="btn btn-primary">Get a Quote</a></li>
         </ul>
       </nav>
 
@@ -74,6 +120,20 @@
       <div class="nav-overlay"></div>
     </div>
   </header>
+
+  <!-- Site search overlay -->
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-panel">
+      <div class="search-input-wrap">
+        <span class="material-symbols-outlined" aria-hidden="true">search</span>
+        <input type="text" id="site-search-input" placeholder="Search services, projects, pages…" autocomplete="off" aria-label="Search the site">
+        <button class="search-close" aria-label="Close search">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+      <ul class="search-results" id="site-search-results"></ul>
+    </div>
+  </div>
 
   <!-- Main content -->
   <main>
@@ -123,6 +183,19 @@
       </video>
       <div class="hero-decoration"></div>
       <div class="hero-decoration-2"></div>
+    </section>
+
+    <!-- Client Logos Strip -->
+    <section class="client-logos">
+      <div class="container">
+        <p class="client-logos-label reveal">Real projects we've delivered</p>
+        <div class="client-logos-track reveal reveal-delay-1">
+          <span class="client-logo">SheAté</span>
+          <span class="client-logo">Seveneity</span>
+          <span class="client-logo">Talent Tide</span>
+          <span class="client-logo">Java Nomad</span>
+        </div>
+      </div>
     </section>
 
     <!-- Services Section -->
@@ -282,7 +355,7 @@
 
             <div class="work-view-all reveal reveal-delay-4">
               <h3>Have a product idea? Let's bring it to life.</h3>
-              <button class="btn btn-primary" data-package="Website Design" data-price="From R 1 500" data-category="Websites">Get a Quote</button>
+              <a href="pricing.html#pricing" class="btn btn-primary">Get a Quote</a>
             </div>
           </div>
 
@@ -349,14 +422,198 @@
 
             <div class="work-view-all reveal reveal-delay-4">
               <h3>Need a poster or design that actually gets noticed?</h3>
-              <button class="btn btn-primary" data-package="Startup Poster" data-price="From R 150" data-category="Posters & Design">Get a Quote</button>
+              <a href="pricing.html#pricing" class="btn btn-primary">Get a Quote</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- About section will go here -->
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media reveal-left">
+            <video autoplay muted loop playsinline class="about-video">
+              <source src="assets/mp4/NSZ-GROUP_HERO.mp4" type="video/mp4">
+            </video>
+            <div class="about-media-badge">
+              <span class="material-symbols-outlined">verified</span>
+              <span>15+ Years Delivering</span>
+            </div>
+          </div>
+
+          <div class="about-content reveal-right">
+            <span class="eyebrow">Who We Are</span>
+            <h2 class="section-title">Built on Reliability, Driven by Innovation</h2>
+            <p class="about-text">
+              NSZ Group brings construction and ICT expertise together under one roof, delivering
+              integrated infrastructure and technology solutions for government and private
+              sector clients across South Africa. From network architecture to civil works, our
+              teams design, build, and support the systems businesses run on.
+            </p>
+            <p class="about-text">
+              We combine hands-on project delivery with a digital-first mindset — helping clients
+              modernize their operations while keeping the physical infrastructure that supports
+              them running reliably.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-value" data-count="50">0</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value" data-count="15">0</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value" data-count="100">0</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+
+            <a href="contact.html" class="btn btn-primary">
+              Work With Us <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us section" id="why-us">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="eyebrow">Why NSZ Group</span>
+          <h2 class="section-title">Why Choose Us</h2>
+          <p>A single partner for both the infrastructure and the technology that runs on it.</p>
+        </header>
+
+        <div class="why-grid stagger-grid">
+          <article class="why-card reveal">
+            <span class="material-symbols-outlined" aria-hidden="true">hub</span>
+            <h3>One Team, Two Disciplines</h3>
+            <p>Construction and ICT under one roof means fewer handoffs, faster delivery, and a single point of accountability.</p>
+          </article>
+          <article class="why-card reveal reveal-delay-1">
+            <span class="material-symbols-outlined" aria-hidden="true">verified_user</span>
+            <h3>Proven Delivery</h3>
+            <p>50+ completed projects across government and private sector clients, backed by 15+ years of combined experience.</p>
+          </article>
+          <article class="why-card reveal reveal-delay-2">
+            <span class="material-symbols-outlined" aria-hidden="true">support_agent</span>
+            <h3>Support That Doesn't Disappear</h3>
+            <p>We stay involved after handover — ongoing IT support, maintenance, and account management included.</p>
+          </article>
+          <article class="why-card reveal reveal-delay-3">
+            <span class="material-symbols-outlined" aria-hidden="true">handshake</span>
+            <h3>Straightforward Partnerships</h3>
+            <p>Transparent pricing, clear timelines, and direct communication from quote to completion.</p>
+          </article>
+        </div>
+
+        <div class="affiliate-callout reveal reveal-delay-4">
+          <span class="material-symbols-outlined" aria-hidden="true">workspace_premium</span>
+          <div>
+            <h3>Partner & Affiliate Network</h3>
+            <p>
+              We work alongside a growing network of trusted technology and construction partners
+              to extend what we can deliver for clients. Interested in partnering with NSZ Group?
+              <a href="contact.html">Get in touch</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="eyebrow">Client Feedback</span>
+          <h2 class="section-title">What Clients Say</h2>
+          <p>Sample layout below — swap in real client testimonials before this goes live.</p>
+        </header>
+
+        <div class="testimonial-slider reveal reveal-delay-1">
+          <div class="testimonial-track" id="testimonial-track">
+            <article class="testimonial-card">
+              <span class="material-symbols-outlined testimonial-quote-icon" aria-hidden="true">format_quote</span>
+              <p class="testimonial-quote">[Placeholder quote] NSZ Group delivered exactly what we needed, on time and within budget. Replace this with a real client quote.</p>
+              <div class="testimonial-author">
+                <span class="testimonial-name">[Client Name]</span>
+                <span class="testimonial-role">[Role, Company — placeholder]</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <span class="material-symbols-outlined testimonial-quote-icon" aria-hidden="true">format_quote</span>
+              <p class="testimonial-quote">[Placeholder quote] The team was responsive and easy to work with from the first call. Replace this with a real client quote.</p>
+              <div class="testimonial-author">
+                <span class="testimonial-name">[Client Name]</span>
+                <span class="testimonial-role">[Role, Company — placeholder]</span>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <span class="material-symbols-outlined testimonial-quote-icon" aria-hidden="true">format_quote</span>
+              <p class="testimonial-quote">[Placeholder quote] Reliable, professional, and genuinely invested in getting it right. Replace this with a real client quote.</p>
+              <div class="testimonial-author">
+                <span class="testimonial-name">[Client Name]</span>
+                <span class="testimonial-role">[Role, Company — placeholder]</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="testimonial-controls">
+            <button class="testimonial-prev" type="button" aria-label="Previous testimonial">
+              <span class="material-symbols-outlined">arrow_back</span>
+            </button>
+            <div class="testimonial-dots" id="testimonial-dots"></div>
+            <button class="testimonial-next" type="button" aria-label="Next testimonial">
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+      <div class="container">
+        <div class="cta-banner-inner reveal">
+          <h2>Ready to start your next project?</h2>
+          <p>Tell us what you're building — we'll get back to you with next steps within one business day.</p>
+          <div class="cta-banner-actions">
+            <a href="contact.html" class="btn btn-primary">
+              Request a Consultation <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+            <a href="tel:+27634371374" class="btn-ghost-inverse">
+              <span class="material-symbols-outlined">call</span> Call +27 63 437 1374
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-inner reveal">
+          <div class="newsletter-text">
+            <h3>Stay in the loop</h3>
+            <p>Occasional updates on new projects, services, and openings. No spam.</p>
+          </div>
+          <form class="newsletter-form" id="newsletter-form" novalidate>
+            <label for="newsletter-email" class="sr-only">Email address</label>
+            <input type="email" id="newsletter-email" name="email" placeholder="you@email.com" required>
+            <button type="submit" class="btn btn-primary">
+              Subscribe <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+          </form>
+        </div>
+        <p class="newsletter-feedback" id="newsletter-feedback" role="status" aria-live="polite"></p>
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
@@ -392,7 +649,7 @@
           <ul class="footer-links">
             <li><a href="ict.html">ICT Services</a></li>
             <li><a href="construction.html">Construction</a></li>
-            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
             <li><a href="index.html#our-websites">Our Work</a></li>
           </ul>
         </div>
@@ -403,7 +660,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#our-websites">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
           </ul>
         </div>
 
@@ -430,7 +687,7 @@
             © 2024 NSZ Group. All rights reserved.
           </p>
           <nav class="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
+            <a href="privecypolicy.html">Privacy Policy</a>
             <a href="#">Terms of Service</a>
             <a href="#">Sitemap</a>
           </nav>
@@ -442,6 +699,9 @@
   <!-- JS FILES — load in this exact order -->
   <script src="js/main.js" defer></script>
   <script src="js/nav.js" defer></script>
+  <script src="js/search.js" defer></script>
   <script src="js/animations.js" defer></script>
+  <script src="js/testimonials.js" defer></script>
+  <script src="js/newsletter.js" defer></script>
 </body>
 </html>

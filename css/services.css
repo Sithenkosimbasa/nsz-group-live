@@ -38,23 +38,33 @@
   border-color: var(--color-primary);
 }
 
+.service-card:hover .service-icon {
+  transform: scale(1.1) rotate(-4deg);
+}
+
+.service-card:hover .service-title {
+  color: var(--color-primary);
+}
+
 .service-icon {
   width: 64px;
   height: 64px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: var(--space-lg);
-  color: var(--color-bg);
+  color: var(--color-text-inverse);
   font-size: 2rem;
+  transition: transform var(--transition-base);
 }
 
 .service-title {
   font-size: 1.5rem;
   margin-bottom: var(--space-md);
   color: var(--color-text);
+  transition: color var(--transition-fast);
 }
 
 .service-description {

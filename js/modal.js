@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Open modal
   pricingButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      const package = btn.dataset.package;
+      const pkg = btn.dataset.package;
       const category = btn.dataset.category;
       const price = btn.dataset.price;
 
       // Update package summary
-      if (packageSummary) packageSummary.textContent = `${package} — ${category}`;
+      if (packageSummary) packageSummary.textContent = `${pkg} — ${category}`;
       if (priceSummary) priceSummary.textContent = `Price: ${price}`;
 
       // Pre-fill hidden form fields
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const categoryField = document.querySelector('[name="category"]');
       const priceField = document.querySelector('[name="price"]');
 
-      if (packageField) packageField.value = package;
+      if (packageField) packageField.value = pkg;
       if (categoryField) categoryField.value = category;
       if (priceField) priceField.value = price;
 

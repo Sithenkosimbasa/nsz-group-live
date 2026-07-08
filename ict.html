@@ -13,8 +13,9 @@
   <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/services.css">
   <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/search.css">
   <link rel="stylesheet" href="css/footer.css">
-  
+
   <!-- Material Symbols for dark mode toggle -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
@@ -35,13 +36,47 @@
         <!-- Desktop navigation -->
         <nav class="nav-desktop" aria-label="Primary navigation">
           <a href="index.html">Home</a>
-          <a href="ict.html" class="active" aria-current="page">ICT Services</a>
-          <a href="construction.html">Construction</a>
-          <a href="index.html#pricing">Pricing</a>
+
+          <div class="dropdown mega-dropdown">
+            <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              Services <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+            </button>
+            <div class="dropdown-menu mega-menu" role="menu">
+              <a href="ict.html" class="mega-menu-item active" role="menuitem" aria-current="page">
+                <span class="mega-menu-icon material-symbols-outlined" aria-hidden="true">dns</span>
+                <span class="mega-menu-text">
+                  <strong>ICT Services</strong>
+                  <small>Networks, cybersecurity & cloud</small>
+                </span>
+              </a>
+              <a href="construction.html" class="mega-menu-item" role="menuitem">
+                <span class="mega-menu-icon material-symbols-outlined" aria-hidden="true">engineering</span>
+                <span class="mega-menu-text">
+                  <strong>Construction</strong>
+                  <small>Infrastructure & project delivery</small>
+                </span>
+              </a>
+              <a href="pricing.html" class="mega-menu-item" role="menuitem">
+                <span class="mega-menu-icon material-symbols-outlined" aria-hidden="true">web</span>
+                <span class="mega-menu-text">
+                  <strong>Digital Solutions</strong>
+                  <small>Websites, apps & digital marketing</small>
+                </span>
+              </a>
+            </div>
+          </div>
+
           <a href="index.html#our-websites">Our Work</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="index.html#about">About</a>
           <a href="contact.html">Contact</a>
-          <button class="btn btn-primary" data-modal="quote">Get a Quote</button>
+          <a href="pricing.html#pricing" class="btn btn-primary">Get a Quote</a>
         </nav>
+
+        <!-- Search toggle -->
+        <button class="nav-search-toggle" aria-label="Search site" title="Search site (press /)">
+          <span class="material-symbols-outlined">search</span>
+        </button>
 
         <!-- Dark mode toggle -->
         <button class="dark-mode-toggle"
@@ -62,12 +97,19 @@
       <nav class="nav-mobile" aria-label="Mobile navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="ict.html" class="active" aria-current="page">ICT Services</a></li>
-          <li><a href="construction.html">Construction</a></li>
-          <li><a href="index.html#pricing">Pricing</a></li>
+          <li>
+            <button type="button" class="dropdown-toggle">Services <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></button>
+            <ul class="dropdown-menu">
+              <li><a href="ict.html" class="active" aria-current="page">ICT Services</a></li>
+              <li><a href="construction.html">Construction</a></li>
+              <li><a href="pricing.html">Digital Solutions</a></li>
+            </ul>
+          </li>
           <li><a href="index.html#our-websites">Our Work</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="index.html#about">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><button class="btn btn-primary" data-modal="quote">Get a Quote</button></li>
+          <li><a href="pricing.html#pricing" class="btn btn-primary">Get a Quote</a></li>
         </ul>
       </nav>
 
@@ -75,6 +117,20 @@
       <div class="nav-overlay"></div>
     </div>
   </header>
+
+  <!-- Site search overlay -->
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-panel">
+      <div class="search-input-wrap">
+        <span class="material-symbols-outlined" aria-hidden="true">search</span>
+        <input type="text" id="site-search-input" placeholder="Search services, projects, pages…" autocomplete="off" aria-label="Search the site">
+        <button class="search-close" aria-label="Close search">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+      <ul class="search-results" id="site-search-results"></ul>
+    </div>
+  </div>
 
   <!-- Main content -->
   <main>
@@ -154,7 +210,7 @@
                 SEO optimised from day one
               </li>
             </ul>
-            <a href="index.html#pricing" class="btn btn-ghost">
+            <a href="pricing.html" class="btn btn-ghost">
               View Pricing
               <span class="material-symbols-outlined">east</span>
             </a>
@@ -196,7 +252,7 @@
                 Paid ad management available
               </li>
             </ul>
-            <a href="index.html#pricing" class="btn btn-ghost">
+            <a href="pricing.html" class="btn btn-ghost">
               View Pricing
               <span class="material-symbols-outlined">east</span>
             </a>
@@ -481,7 +537,7 @@
           <ul class="footer-links">
             <li><a href="ict.html">ICT Services</a></li>
             <li><a href="construction.html">Construction</a></li>
-            <li><a href="index.html#pricing">Digital Solutions</a></li>
+            <li><a href="pricing.html">Digital Solutions</a></li>
             <li><a href="index.html#our-websites">Our Work</a></li>
           </ul>
         </div>
@@ -492,7 +548,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#our-websites">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
           </ul>
         </div>
 
@@ -515,7 +571,7 @@
             © 2024 NSZ Group. All rights reserved.
           </p>
           <nav class="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
+            <a href="privecypolicy.html">Privacy Policy</a>
             <a href="#">Terms of Service</a>
             <a href="#">Sitemap</a>
           </nav>
@@ -527,6 +583,7 @@
   <!-- JS FILES — load in this exact order -->
   <script src="js/main.js" defer></script>
   <script src="js/nav.js" defer></script>
+  <script src="js/search.js" defer></script>
   <script src="js/animations.js" defer></script>
 </body>
 </html>

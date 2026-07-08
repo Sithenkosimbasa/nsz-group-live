@@ -42,23 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     statValues.forEach(el => counterObserver.observe(el));
   }
-});
-
-function animateCounter(el) {
-  const target = parseInt(el.dataset.count, 10);
-  const suffix = el.dataset.suffix || '';
-  const duration = 1400;
-  const start = performance.now();
-
-  function update(now) {
-    const elapsed = now - start;
-    const progress = Math.min(elapsed / duration, 1);
-    // Ease-out-quad
-    const eased = 1 - (1 - progress) * (1 - progress);
-    const current = Math.round(eased * target);
-    el.textContent = current + suffix;
-    if (progress < 1) requestAnimationFrame(update);
-  }
 
   // Work tab switching (homepage)
   const workTabs = document.querySelectorAll('.work-tab');
@@ -82,3 +65,23 @@ function animateCounter(el) {
       });
     });
   });
+});
+
+function animateCounter(el) {
+  const target = parseInt(el.dataset.count, 10);
+  const suffix = el.dataset.suffix || '';
+  const duration = 1400;
+  const start = performance.now();
+
+  function update(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    // Ease-out-quad
+    const eased = 1 - (1 - progress) * (1 - progress);
+    const current = Math.round(eased * target);
+    el.textContent = current + suffix;
+    if (progress < 1) requestAnimationFrame(update);
+  }
+
+  requestAnimationFrame(update);
+}
