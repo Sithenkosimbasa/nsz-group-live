@@ -623,7 +623,7 @@ ${ctaBand()}`;
     <h2>Why local matters</h2>
     <p>We know the South African setup: PayFast, .co.za domains, POPIA-compliant contact forms and the business registration steps a new company needs. When you need us, we’re reachable by phone or WhatsApp during business hours.</p>
     <h2>What we’ve built</h2>
-    <p>Our portfolio covers artist and service websites, streetwear e-commerce, a peer-to-peer storage marketplace, a freelancer marketplace, food ordering platforms, a children’s streaming hub and an AI sales-coaching tool. <a href="/work/">See the work</a>.</p>
+    <p>Our portfolio covers artist and service websites, a cleaning company’s site, streetwear and industrial e-commerce, a peer-to-peer storage marketplace, a freelancer marketplace, food ordering platforms, a children’s streaming hub and an AI sales-coaching tool. <a href="/work/">See the work</a>.</p>
   </div>
 </div></section>
 <section class="section" aria-labelledby="why-title"><div class="wrap">
