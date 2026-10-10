@@ -182,7 +182,7 @@ Custom web apps are quoted per project. Networking and CCTV are quoted after a s
 - **Y2K Closet** (E-commerce): Y2K-styled fashion store for a Cape Town brand, with shop, cart, about and contact pages. Built with HTML, CSS, JavaScript.
 - **Nanarulz** (Business website): Website for a unisex hair salon with a gallery, services, pricing and online booking. Built with HTML, CSS, JavaScript.
 - **TrustBridge** (Job platform): Job-search platform with swipe-to-apply job matching, one-tap applications and application tracking. Built with HTML, CSS.
-- **Code Zack Jobs** (Automation tool): Python automation that logs job leads to an Excel tracker, removes duplicates and sends daily email and WhatsApp alerts. Built with Python · pandas · Twilio.
+- **Code Zack Jobs** (AI job-search app): Job-search app for South Africans that collects new listings every morning, uses AI to score each one against your CV and salary, drafts cover letters and tracks your applications. Built with Next.js, TypeScript · Supabase · Claude AI · Netlify. Live: https://code-zack-jobs.netlify.app
 - **Quiz Master** (Web app): Quiz builder where you set a timer and answer type, add questions and generate a shareable quiz link. Built with JavaScript · GitHub Pages. Live: https://sithenkosimbasa.github.io/Quiz-Master/
 
 ## How a project works
