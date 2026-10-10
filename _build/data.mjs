@@ -213,7 +213,7 @@ export const PROJECTS = [
     alt: "Three She Ate phone screens: the burger menu, a Signature Beef Burger detail page and the weekly meal planner",
     summary: "Mobile-first food ordering site with a menu, item customisation, cart and checkout, a weekly meal planner and customer accounts.",
     stack: "JavaScript · Supabase · Vercel" },
-  { id: "codezack", featured: true, name: "Code Zack Jobs", type: "AI job-search app", img: "codezack", url: "https://code-zack-jobs.netlify.app",
+  { id: "codezack", featured: true, name: "Code Zack Jobs", type: "AI job-search app", img: "codezack-app", url: "https://code-zack-jobs.netlify.app",
     alt: "Code Zack Jobs homepage with the headline Wake up to jobs that are actually worth applying for, beside a scored shortlist of job matches",
     summary: "Job-search app for South Africans that collects new listings every morning, uses AI to score each one against your CV and salary, drafts cover letters and tracks your applications.",
     stack: "Next.js, TypeScript · Supabase · Claude AI · Netlify" },
