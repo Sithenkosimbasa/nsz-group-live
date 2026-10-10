@@ -1,0 +1,82 @@
+# NSZ Group — nszgroup.co.za
+# Search engines and AI assistants are welcome to crawl and cite this site.
+# A plain-text summary for language models is at /llms.txt (full version: /llms-full.txt).
+
+User-agent: *
+Allow: /
+Disallow: /_build/
+Disallow: /contact/thanks/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /_build/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /_build/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /_build/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /_build/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /_build/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /_build/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /_build/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /_build/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /_build/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /_build/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /_build/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /_build/
+
+User-agent: CCBot
+Allow: /
+Disallow: /_build/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /_build/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /_build/
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /_build/
+
+User-agent: MistralAI-User
+Allow: /
+Disallow: /_build/
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /_build/
+
+Sitemap: https://nszgroup.co.za/sitemap.xml
