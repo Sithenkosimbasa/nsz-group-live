@@ -264,7 +264,7 @@ const pages = [];
   </div>
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <p class="lead">We design and hand-code websites and web apps, build online stores with PayFast checkout, design brands, and set up hosting, email, networks and CCTV. One team, published prices.</p>
+      <p class="lead">We design and build websites and web apps, build online stores with PayFast checkout, design brands, and set up hosting, email, networks and CCTV. One team, published prices.</p>
       <div class="actions">
         <a class="btn btn-primary" href="/contact/">Get a quote ${arrow}</a>
         <a class="btn btn-secondary" href="${SITE.whatsapp}" rel="noopener">WhatsApp ${SITE.phoneDisplay}</a>
@@ -346,7 +346,7 @@ ${ctaBand()}`;
     path: "/",
     file: "index.html",
     title: "Web Design, E-Commerce & IT in Cape Town | NSZ Group",
-    description: "Cape Town web studio building hand-coded websites, online stores with PayFast, branding and IT for South African businesses. Websites from R1 500.",
+    description: "Cape Town web studio building custom websites, online stores with PayFast, branding and IT for South African businesses. Websites from R1 500.",
     nav: "/",
     body,
     schema: [faqLd(HOME_FAQS)],
@@ -615,7 +615,7 @@ ${ctaBand()}`;
     <h2>What we do</h2>
     <p>We design and build websites, online stores and web apps, and we set up the technology a business runs on: domains, hosting, business email, office networks and CCTV. Clients get one team and one point of contact for all of it.</p>
     <h2>How we build</h2>
-    <p>Every site is hand-coded in clean HTML, CSS and JavaScript, so it loads fast and you own the code. When a project needs accounts, bookings or a database, we build on Supabase. Payments run through PayFast for South African customers or Stripe for international cards, and sites are deployed on Netlify or Vercel.</p>
+    <p>Every site is custom-built in clean HTML, CSS and JavaScript, so it loads fast and you own the code. When a project needs accounts, bookings or a database, we build on Supabase. Payments run through PayFast for South African customers or Stripe for international cards, and sites are deployed on Netlify or Vercel.</p>
     <p>We use AI tools to speed up production, which keeps delivery fast and prices lower. Every design decision and every line that ships is still checked by a person.</p>
     <h2>Why local matters</h2>
     <p>We know the South African setup: PayFast, .co.za domains, POPIA-compliant contact forms and the business registration steps a new company needs. When you need us, we’re reachable by phone or WhatsApp during business hours.</p>
@@ -632,7 +632,7 @@ ${ctaBand()}`;
     path: "/about/",
     file: "about/index.html",
     title: "About NSZ Group | Cape Town Web & IT Studio, Est. 2024",
-    description: "NSZ Group (Pty) Ltd is a Cape Town web and IT studio, founded in 2024, building hand-coded websites, online stores and IT systems for South African firms.",
+    description: "NSZ Group (Pty) Ltd is a Cape Town web and IT studio, founded in 2024, building custom websites, online stores and IT systems for South African firms.",
     nav: "/about/",
     body,
     schema: [crumbsLd(crumbs), { "@context": "https://schema.org", "@type": "AboutPage", url: abs("/about/"), name: "About NSZ Group", about: { "@id": ORG_ID } }],
@@ -864,7 +864,7 @@ writeFileSync(
 
 > ${SITE.description}
 
-${SITE.legalName} is a web and IT studio in ${SITE.city}, South Africa, founded in ${SITE.founded}. It designs and hand-codes websites and web apps, builds online stores with PayFast or Stripe checkout, does logo, poster and social media design, and sets up hosting, domains, business email, office networks and CCTV. Prices are published in South African Rand.
+${SITE.legalName} is a web and IT studio in ${SITE.city}, South Africa, founded in ${SITE.founded}. It designs and builds websites and web apps, builds online stores with PayFast or Stripe checkout, does logo, poster and social media design, and sets up hosting, domains, business email, office networks and CCTV. Prices are published in South African Rand.
 
 ## Contact
 ${contactMd}
@@ -898,7 +898,7 @@ Source: ${SITE.url}/ · Last updated: ${TODAY} · All prices in South African Ra
 - Founded: ${SITE.founded}
 - Based in: ${SITE.city}, ${SITE.region}, South Africa
 - Serves: businesses in Cape Town and across South Africa
-- Builds with: hand-coded HTML, CSS and JavaScript; TypeScript; Supabase for accounts and databases; PayFast and Stripe for payments; Netlify and Vercel for hosting
+- Builds with: HTML, CSS and JavaScript; TypeScript; Supabase for accounts and databases; PayFast and Stripe for payments; Netlify and Vercel for hosting
 ${contactMd}
 
 ## Services

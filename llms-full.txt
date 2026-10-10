@@ -1,6 +1,6 @@
 # NSZ Group — full site content
 
-> NSZ Group is a Cape Town web and IT studio building hand-coded websites, online stores with PayFast and Stripe, branding and IT systems for South African businesses.
+> NSZ Group is a Cape Town web and IT studio building custom websites, online stores with PayFast and Stripe, branding and IT systems for South African businesses.
 
 Source: https://nszgroup.co.za/ · Last updated: 2026-10-10 · All prices in South African Rand (ZAR).
 
@@ -9,7 +9,7 @@ Source: https://nszgroup.co.za/ · Last updated: 2026-10-10 · All prices in Sou
 - Founded: 2024
 - Based in: Cape Town, Western Cape, South Africa
 - Serves: businesses in Cape Town and across South Africa
-- Builds with: hand-coded HTML, CSS and JavaScript; TypeScript; Supabase for accounts and databases; PayFast and Stripe for payments; Netlify and Vercel for hosting
+- Builds with: HTML, CSS and JavaScript; TypeScript; Supabase for accounts and databases; PayFast and Stripe for payments; Netlify and Vercel for hosting
 - Phone / WhatsApp: +27 63 437 1374 (https://wa.me/27634371374?text=Hi%20NSZ%20Group%2C%20I%27d%20like%20a%20quote.)
 - Email: nszgroupbussines@gmail.com
 - Location: Cape Town, Western Cape, South Africa (works with clients across South Africa)
@@ -20,7 +20,7 @@ Source: https://nszgroup.co.za/ · Last updated: 2026-10-10 · All prices in Sou
 ### Websites & Web Apps
 URL: https://nszgroup.co.za/services/websites/
 
-We design and hand-code fast, mobile-first websites, from a one-page site that gets you found to web apps with logins, bookings and a database behind them.
+We design and build fast, mobile-first websites, from a one-page site that gets you found to web apps with logins, bookings and a database behind them.
 
 **Business websites**
 - Custom responsive design, not a template
@@ -121,7 +121,7 @@ Pricing: Networking and CCTV are quoted after a site survey, because the cost de
 
 ## Price list
 ### Websites
-Hand-coded, responsive websites. Once-off prices; hosting can be added.
+Custom, responsive websites. Once-off prices; hosting can be added.
 
 | Package | Price | Billing | Best for | Includes |
 |---|---|---|---|---|
@@ -209,7 +209,7 @@ Fill in the form on our contact page, WhatsApp us on 063 437 1374, or email nszg
 A single-page website is R1 500 once-off. A business website of up to five pages is R4 500, and a premium website with unlimited pages and CMS integration is R8 500. Web apps with accounts, bookings or dashboards are quoted per project.
 
 **Do I own my website’s code?**
-Yes. Every site is hand-coded and the files are handed over to you, so you are never locked into a page builder or a platform subscription to keep your site online.
+Yes. Every site is custom-built and the files are handed over to you, so you are never locked into a page builder or a platform subscription to keep your site online.
 
 **Will my website work on phones?**
 Yes. Every site is designed mobile-first and tested on phone, tablet and desktop before launch.

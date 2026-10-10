@@ -5,7 +5,7 @@ export const SITE = {
   legalName: "NSZ Group (Pty) Ltd",
   url: "https://nszgroup.co.za",
   description:
-    "NSZ Group is a Cape Town web and IT studio building hand-coded websites, online stores with PayFast and Stripe, branding and IT systems for South African businesses.",
+    "NSZ Group is a Cape Town web and IT studio building custom websites, online stores with PayFast and Stripe, branding and IT systems for South African businesses.",
   founded: "2024",
   city: "Cape Town",
   region: "Western Cape",
@@ -26,7 +26,7 @@ export const PRICING = {
   websites: {
     id: "websites",
     title: "Websites",
-    intro: "Hand-coded, responsive websites. Once-off prices; hosting can be added.",
+    intro: "Custom, responsive websites. Once-off prices; hosting can be added.",
     plans: [
       { name: "Single Page", for: "Ideal for startups and freelancers", price: 1500, unit: "once-off",
         features: [f("1-page responsive website"), f("Contact form"), f("Basic SEO setup"), f("Mobile optimised"), f("CMS / editable content", true), f("Hosting included", true)] },
@@ -97,13 +97,13 @@ export const SERVICES = [
     short: "Websites & web apps",
     hero: "Websites.",
     serviceType: "Web design and development",
-    summary: "Hand-coded, mobile-first websites, plus web apps with accounts, bookings and dashboards.",
+    summary: "Custom, mobile-first websites, plus web apps with accounts, bookings and dashboards.",
     tags: ["Business sites", "Web apps", "SEO", "AI features"],
     fromLabel: "From R1 500",
     title: "Website Design & Development in Cape Town | NSZ Group",
-    description: "Hand-coded, mobile-first websites and web apps for South African businesses. Single-page sites R1 500, 5-page business sites R4 500. Based in Cape Town.",
+    description: "Custom, mobile-first websites and web apps for South African businesses. Single-page sites R1 500, 5-page business sites R4 500. Based in Cape Town.",
     h1: "Website design and development in Cape Town.",
-    lead: "We design and hand-code fast, mobile-first websites, from a one-page site that gets you found to web apps with logins, bookings and a database behind them.",
+    lead: "We design and build fast, mobile-first websites, from a one-page site that gets you found to web apps with logins, bookings and a database behind them.",
     includesTitle: "From a one-page site to a full web app.",
     groups: [
       { title: "Business websites", items: ["Custom responsive design, not a template", "Single-page and multi-page sites", "Contact forms and WhatsApp click-to-chat", "On-page SEO set up from day one", "Google Analytics setup (Business Website and up)"] },
@@ -115,7 +115,7 @@ export const SERVICES = [
     work: ["vaultly", "dripzilla", "talenttide", "pitchflow", "digitalbloom"],
     faqs: [
       { q: "How much does a website cost?", a: "A single-page website is R1 500 once-off. A business website of up to five pages is R4 500, and a premium website with unlimited pages and CMS integration is R8 500. Web apps with accounts, bookings or dashboards are quoted per project." },
-      { q: "Do I own my website’s code?", a: "Yes. Every site is hand-coded and the files are handed over to you, so you are never locked into a page builder or a platform subscription to keep your site online." },
+      { q: "Do I own my website’s code?", a: "Yes. Every site is custom-built and the files are handed over to you, so you are never locked into a page builder or a platform subscription to keep your site online." },
       { q: "Will my website work on phones?", a: "Yes. Every site is designed mobile-first and tested on phone, tablet and desktop before launch." },
     ],
   },
@@ -243,7 +243,7 @@ export const STEPS = [
 ];
 
 export const REASONS = [
-  { title: "Code you own", text: "Hand-built HTML, CSS and JavaScript, handed over to you. No locked-in page builder, no platform fee just to stay online." },
+  { title: "Code you own", text: "Your website files are handed over to you. No locked-in page builder, no platform fee just to stay online." },
   { title: "Prices on the page", text: "Our packages and prices are published in Rand, and you get a fixed written quote before work starts." },
   { title: "Built for South Africa", text: "PayFast checkout, .co.za domains, POPIA-friendly forms and the business setup a new company needs." },
   { title: "One point of contact", text: "The same team from first call to launch day, reachable on WhatsApp and phone during business hours." },

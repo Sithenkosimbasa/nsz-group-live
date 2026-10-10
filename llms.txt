@@ -1,8 +1,8 @@
 # NSZ Group
 
-> NSZ Group is a Cape Town web and IT studio building hand-coded websites, online stores with PayFast and Stripe, branding and IT systems for South African businesses.
+> NSZ Group is a Cape Town web and IT studio building custom websites, online stores with PayFast and Stripe, branding and IT systems for South African businesses.
 
-NSZ Group (Pty) Ltd is a web and IT studio in Cape Town, South Africa, founded in 2024. It designs and hand-codes websites and web apps, builds online stores with PayFast or Stripe checkout, does logo, poster and social media design, and sets up hosting, domains, business email, office networks and CCTV. Prices are published in South African Rand.
+NSZ Group (Pty) Ltd is a web and IT studio in Cape Town, South Africa, founded in 2024. It designs and builds websites and web apps, builds online stores with PayFast or Stripe checkout, does logo, poster and social media design, and sets up hosting, domains, business email, office networks and CCTV. Prices are published in South African Rand.
 
 ## Contact
 - Phone / WhatsApp: +27 63 437 1374 (https://wa.me/27634371374?text=Hi%20NSZ%20Group%2C%20I%27d%20like%20a%20quote.)
@@ -12,7 +12,7 @@ NSZ Group (Pty) Ltd is a web and IT studio in Cape Town, South Africa, founded i
 - Quote form: https://nszgroup.co.za/contact/
 
 ## Services
-- [Websites & Web Apps](https://nszgroup.co.za/services/websites/): Hand-coded, mobile-first websites, plus web apps with accounts, bookings and dashboards. From R1 500.
+- [Websites & Web Apps](https://nszgroup.co.za/services/websites/): Custom, mobile-first websites, plus web apps with accounts, bookings and dashboards. From R1 500.
 - [E-Commerce](https://nszgroup.co.za/services/ecommerce/): Online stores with PayFast or Stripe checkout, stock and order management your team can run. From R6 500.
 - [Branding, Design & Social Media](https://nszgroup.co.za/services/branding/): Logos and brand identities, posters for print and social, and monthly social media management. Posters from R150.
 - [IT Services, Hosting & CCTV](https://nszgroup.co.za/services/it-services/): Domains, hosting and business email, office networks and Wi-Fi, and CCTV installation. Quoted per site.
