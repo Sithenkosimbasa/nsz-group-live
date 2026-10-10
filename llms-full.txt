@@ -169,19 +169,19 @@ Custom web apps are quoted per project. Networking and CCTV are quoted after a s
 
 ## Portfolio
 - **Drip Zilla** (Artist website): Website for a hand-painting studio that customises sneakers, clothing, canvas and murals, with starting prices shown up front and enquiries straight to WhatsApp. Built with HTML, CSS, JavaScript · Netlify. Live: https://dripzilla.netlify.app
+- **She Ate** (Food ordering app): Mobile-first food ordering site with a menu, item customisation, cart and checkout, a weekly meal planner and customer accounts. Built with JavaScript · Supabase · Vercel. Live: https://she-ate.vercel.app
 - **Vaultly** (Marketplace web app): Peer-to-peer storage marketplace for Cape Town that matches people who need storage with neighbours who have space, plus an admin console for listings, bookings, disputes and identity verification. Built with JavaScript, TypeScript · Supabase auth, database and edge functions.
 - **Sevenity** (E-commerce): Streetwear store with a catalogue, lookbook, wishlist and cart, built around heavy type and a restrained palette. Built with HTML, CSS, JavaScript.
+- **PitchFlow** (AI web app): AI-powered sales-call analysis and coaching platform where sales teams upload call recordings and get insights to improve their pitch. Built with TypeScript, React · Supabase.
 - **Talent Tide SA** (Freelance marketplace): Marketplace for hiring South African freelancers in web development, design and marketing, with search by skill and location. Built with TypeScript · Supabase.
-- **She Ate** (Food ordering): Mobile-first food website with ordering, meal planning, cart, checkout and customer accounts. Built with JavaScript · Supabase. Live: https://she-ate.vercel.app
-- **QuickBite** (Food platform): Multi-restaurant food ordering platform for exploring and ordering from several kitchens. Built with HTML, CSS, JavaScript.
+- **QuickBite** (Food platform): Multi-restaurant food ordering platform with menus, prices in Rand and an add-to-cart ordering flow. Built with HTML, CSS, JavaScript.
+- **KidFlix** (Streaming platform): Safe streaming hub for children’s videos with age profiles, categories, favourites and parent sign-in. Built with JavaScript · Node.js.
 - **Digital Bloom** (Web app): Interactive birthday-card creator with Google and Facebook sign-in, real-time saving and QR-code share links. Built with JavaScript · Supabase.
-- **PitchFlow** (AI web app): AI-powered sales-call analysis and coaching platform. Built with TypeScript · Supabase.
-- **KidFlix** (Streaming platform): Safe streaming hub for children’s movies and shows, with parent sign-in. Built with JavaScript.
-- **Y2K Closet** (E-commerce): Online fashion store. Built with HTML, CSS, JavaScript.
-- **Nanarulz** (Business website): Website for a barber shop. Built with HTML, CSS, JavaScript.
-- **TrustBridge** (Job platform): Job-search platform. Built with HTML, CSS.
-- **Code Zack Jobs** (Automation tool): Tool that finds job listings and applies to them automatically. Built with Python.
-- **Quiz Master** (Web app): Browser-based quiz builder and player. Built with JavaScript. Live: https://sithenkosimbasa.github.io/Quiz-Master/
+- **Y2K Closet** (E-commerce): Y2K-styled fashion store for a Cape Town brand, with shop, cart, about and contact pages. Built with HTML, CSS, JavaScript.
+- **Nanarulz** (Business website): Website for a unisex hair salon with a gallery, services, pricing and online booking. Built with HTML, CSS, JavaScript.
+- **TrustBridge** (Job platform): Job-search platform with swipe-to-apply job matching, one-tap applications and application tracking. Built with HTML, CSS.
+- **Code Zack Jobs** (Automation tool): Python automation that logs job leads to an Excel tracker, removes duplicates and sends daily email and WhatsApp alerts. Built with Python · pandas · Twilio.
+- **Quiz Master** (Web app): Quiz builder where you set a timer and answer type, add questions and generate a shareable quiz link. Built with JavaScript · GitHub Pages. Live: https://sithenkosimbasa.github.io/Quiz-Master/
 
 ## How a project works
 1. **Discover**: We pin down your goals, your customers and the one job the site has to do, before any design or code.

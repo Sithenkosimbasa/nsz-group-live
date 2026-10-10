@@ -308,9 +308,9 @@ const pages = [];
         <p class="eyebrow">Selected work</p>
         <h2 id="work-title" class="h2">Built by us, running in the real world.</h2>
       </div>
-      <a class="text-link" href="/work/">All projects ${arrow}</a>
+      <a class="text-link" href="/work/">All ${PROJECTS.length} projects ${arrow}</a>
     </div>
-    <div class="work-grid">${PROJECTS.map((p) => workCard(p)).join("")}</div>
+    <div class="work-grid">${PROJECTS.filter((p) => p.featured).map((p) => workCard(p)).join("")}</div>
   </div>
 </section>
 
@@ -504,7 +504,7 @@ ${ctaBand()}`;
 <section class="section" aria-labelledby="featured-title"><div class="wrap">
   <h2 id="featured-title" class="sr-only">Featured projects</h2>
   <div class="work-grid">${PROJECTS.map((p) => workCard(p)).join("")}</div>
-  <div class="built"><h3>More projects</h3>${builtList(MORE_PROJECTS)}</div>
+  ${MORE_PROJECTS.length ? `<div class="built"><h3>More projects</h3>${builtList(MORE_PROJECTS)}</div>` : ""}
 </div></section>
 ${ctaBand("Want something like this?", "Tell us what you have in mind. We’ll point you to the closest project we’ve built and quote yours.")}`;
   pages.push({
