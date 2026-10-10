@@ -14,7 +14,7 @@ export const SITE = {
   tel: "+27634371374",
   whatsapp: "https://wa.me/27634371374?text=Hi%20NSZ%20Group%2C%20I%27d%20like%20a%20quote.",
   email: "nszgroupbussines@gmail.com",
-  hours: "Mon–Fri, 09:00–18:00 SAST",
+  hours: "Mon–Fri 08:00–16:00, Sat 09:00–13:00, Sun closed",
   instagram: "https://www.instagram.com/nszgroup",
   sameAs: ["https://www.instagram.com/nszgroup"],
 };

@@ -47,7 +47,10 @@ const ORG = {
   currenciesAccepted: "ZAR",
   address: { "@type": "PostalAddress", addressLocality: SITE.city, addressRegion: SITE.region, addressCountry: "ZA" },
   areaServed: [{ "@type": "City", name: "Cape Town" }, { "@type": "Country", name: "South Africa" }],
-  openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "09:00", closes: "18:00" }],
+  openingHoursSpecification: [
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "08:00", closes: "16:00" },
+    { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "09:00", closes: "13:00" },
+  ],
   contactPoint: [{ "@type": "ContactPoint", contactType: "sales", telephone: SITE.phoneIntl, email: SITE.email, areaServed: "ZA", availableLanguage: ["English"] }],
   sameAs: SITE.sameAs,
   knowsAbout: ["Web design", "Web development", "E-commerce", "PayFast integration", "Supabase", "Logo design", "Social media management", "Web hosting", "Business email", "Network installation", "CCTV installation"],
