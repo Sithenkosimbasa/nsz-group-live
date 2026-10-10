@@ -1,0 +1,239 @@
+# NSZ Group — full site content
+
+> NSZ Group is a Cape Town web and IT studio building hand-coded websites, online stores with PayFast and Stripe, branding and IT systems for South African businesses.
+
+Source: https://nszgroup.co.za/ · Last updated: 2026-10-10 · All prices in South African Rand (ZAR).
+
+## Company facts
+- Legal name: NSZ Group (Pty) Ltd
+- Founded: 2024
+- Based in: Cape Town, Western Cape, South Africa
+- Serves: businesses in Cape Town and across South Africa
+- Builds with: hand-coded HTML, CSS and JavaScript; TypeScript; Supabase for accounts and databases; PayFast and Stripe for payments; Netlify and Vercel for hosting
+- Phone / WhatsApp: +27 63 437 1374 (https://wa.me/27634371374?text=Hi%20NSZ%20Group%2C%20I%27d%20like%20a%20quote.)
+- Email: nszgroupbussines@gmail.com
+- Location: Cape Town, Western Cape, South Africa (works with clients across South Africa)
+- Hours: Mon–Fri, 09:00–18:00 SAST
+- Quote form: https://nszgroup.co.za/contact/
+
+## Services
+### Websites & Web Apps
+URL: https://nszgroup.co.za/services/websites/
+
+We design and hand-code fast, mobile-first websites, from a one-page site that gets you found to web apps with logins, bookings and a database behind them.
+
+**Business websites**
+- Custom responsive design, not a template
+- Single-page and multi-page sites
+- Contact forms and WhatsApp click-to-chat
+- On-page SEO set up from day one
+- Google Analytics setup (Business Website and up)
+
+**Web apps**
+- User accounts and sign-in with Supabase
+- Bookings, listings and dashboards
+- Admin panels for your team
+- Moderation and identity-verification tools
+
+**AI features & automation**
+- AI chat assistants for your website
+- AI-generated images and media
+- Workflow automation that saves admin time
+
+**Launch & handover**
+- Deployed on Netlify or Vercel with HTTPS
+- Tested on phone, tablet and desktop
+- Code you own, never a locked-in page builder
+
+Pricing: From R1 500. See the price list below.
+
+### E-Commerce
+URL: https://nszgroup.co.za/services/ecommerce/
+
+We build online stores with PayFast or Stripe checkout that work on any phone and are simple for your team to run day to day.
+
+**Store build**
+- Product catalogue, cart and checkout
+- PayFast or Stripe payment integration
+- Mobile-first, conversion-focused layout
+- Customer accounts (Business Store and up)
+
+**Running the store**
+- Inventory and order management
+- Analytics dashboard (Business Store and up)
+- Multi-vendor marketplace (Enterprise Store)
+- Monthly hosting with maintenance
+
+Pricing: From R6 500. See the price list below.
+
+### Branding, Design & Social Media
+URL: https://nszgroup.co.za/services/branding/
+
+From a single event poster to a full brand identity and a month of social content, designed in Cape Town for South African brands.
+
+**Brand identity**
+- Logo concepts with vector files in all formats
+- Colour palette and typography selection
+- Business cards, letterheads and envelopes
+- Brand guidelines you can reuse
+
+**Posters & print**
+- Event and promotional posters
+- Print-ready and social-media-sized files
+- 1–5 day turnaround depending on package
+
+**Social media management**
+- 8 to 24+ posts per month
+- Content creation and graphic design
+- Community management and monthly reports
+- Ad campaign management (Social Pro and up)
+
+Pricing: Posters from R150. See the price list below.
+
+### IT Services, Hosting & CCTV
+URL: https://nszgroup.co.za/services/it-services/
+
+We set up the technology your business runs on: domains, hosting and email, reliable office networks, and CCTV systems you can check from your phone.
+
+**Domains, hosting & email**
+- .co.za and international domain registration
+- Website hosting with SSL
+- Business email and Google Workspace setup
+
+**Networking**
+- LAN / WAN setup and configuration
+- Wireless network installation
+- Firewall and network security
+- Ongoing maintenance and support
+
+**CCTV**
+- Site survey and system design
+- HD and IP camera installation
+- NVR / DVR configuration
+- Remote viewing setup
+
+**Business setup**
+- Company registration support
+- Third-party integrations
+- Practical tech setup and advice
+
+Pricing: Networking and CCTV are quoted after a site survey, because the cost depends on the size of the site and the equipment needed. Domains, hosting and business email are quoted with your website or on their own.
+
+## Price list
+### Websites
+Hand-coded, responsive websites. Once-off prices; hosting can be added.
+
+| Package | Price | Billing | Best for | Includes |
+|---|---|---|---|---|
+| Single Page | R1 500 | once-off | Ideal for startups and freelancers | 1-page responsive website; Contact form; Basic SEO setup; Mobile optimised |
+| Business Website | R4 500 | once-off | For growing businesses | Up to 5 pages; Contact form and newsletter signup; SEO optimisation; Google Analytics setup; 3 months free maintenance |
+| Premium Website | R8 500 | once-off | For established businesses | Unlimited pages; Advanced contact forms; Advanced SEO and analytics; CMS integration; 6 months free maintenance; Performance optimisation |
+
+### E-Commerce
+Online stores with payment integration. Once-off build plus monthly hosting.
+
+| Package | Price | Billing | Best for | Includes |
+|---|---|---|---|---|
+| Starter Store | R6 500 | once-off + R250/month hosting | Perfect for getting started | Up to 10 products; Payment integration; Basic inventory management; Mobile responsive |
+| Business Store | R12 500 | once-off + R450/month hosting | For growing online businesses | Unlimited products; Advanced payment options; Inventory and order management; Customer accounts; Basic analytics dashboard |
+| Enterprise Store | R25 000 | once-off + custom hosting | For enterprise solutions | Everything in Business Store; Multi-vendor marketplace; Advanced analytics and reporting; Custom integrations; 24/7 premium support; SLA guarantee |
+
+### Logo & Branding
+From a logo on its own to a full brand identity or rebrand.
+
+| Package | Price | Billing | Best for | Includes |
+|---|---|---|---|---|
+| Logo Package | R2 500 | once-off | Essential branding package | 3 logo concepts; 3 revisions per concept; Vector files in all formats; Brand guidelines |
+| Brand Identity | R7 500 | once-off | Complete brand identity | Everything in Logo Package; Business card design; Letterhead and envelope; Social media templates; Brand colour palette; Typography selection |
+| Brand Refresh | R12 500 | once-off | For rebranding projects | Brand audit and analysis; Logo redesign; Updated brand guidelines; New marketing materials; Implementation strategy; 3 months brand support |
+
+### Posters & Design
+Event, promotional and social posters with fast turnaround.
+
+| Package | Price | Billing | Best for | Includes |
+|---|---|---|---|---|
+| Casual | R150 | per poster | Perfect for individuals | 1 custom poster design; 1 revision; Digital file (JPG/PNG); 3–5 day turnaround |
+| Startup | R350 | per poster | Great for small businesses | 1 premium poster design; 3 revisions; Digital and print-ready files; 2–3 day turnaround; Social media resize included |
+| Business | R800 | per poster, bulk discounts available | For brands and campaigns | Up to 3 poster designs; Unlimited revisions; Digital, print-ready and source files; 1–2 day turnaround; Social media resize included; Brand consistency review |
+
+### Social Media Management
+Monthly content, design and community management.
+
+| Package | Price | Billing | Best for | Includes |
+|---|---|---|---|---|
+| Social Starter | R2 500 | per month | Monthly social media management | 8 posts per month; 2 platforms; Content creation; Basic engagement monitoring |
+| Social Pro | R5 500 | per month | Complete social media solution | 16 posts per month; 4 platforms; Content and graphic design; Community management; Monthly analytics report; Ad campaign management |
+| Social Enterprise | R12 500 | per month | For established brands | 24+ posts per month; Unlimited platforms; Advanced content strategy; Influencer partnerships; Weekly performance reports; Crisis management |
+
+Custom web apps are quoted per project. Networking and CCTV are quoted after a site survey.
+
+## Portfolio
+- **Drip Zilla** (Artist website): Website for a hand-painting studio that customises sneakers, clothing, canvas and murals, with starting prices shown up front and enquiries straight to WhatsApp. Built with HTML, CSS, JavaScript · Netlify. Live: https://dripzilla.netlify.app
+- **Vaultly** (Marketplace web app): Peer-to-peer storage marketplace for Cape Town that matches people who need storage with neighbours who have space, plus an admin console for listings, bookings, disputes and identity verification. Built with JavaScript, TypeScript · Supabase auth, database and edge functions.
+- **Sevenity** (E-commerce): Streetwear store with a catalogue, lookbook, wishlist and cart, built around heavy type and a restrained palette. Built with HTML, CSS, JavaScript.
+- **Talent Tide SA** (Freelance marketplace): Marketplace for hiring South African freelancers in web development, design and marketing, with search by skill and location. Built with TypeScript · Supabase.
+- **She Ate** (Food ordering): Mobile-first food website with ordering, meal planning, cart, checkout and customer accounts. Built with JavaScript · Supabase. Live: https://she-ate.vercel.app
+- **QuickBite** (Food platform): Multi-restaurant food ordering platform for exploring and ordering from several kitchens. Built with HTML, CSS, JavaScript.
+- **Digital Bloom** (Web app): Interactive birthday-card creator with Google and Facebook sign-in, real-time saving and QR-code share links. Built with JavaScript · Supabase.
+- **PitchFlow** (AI web app): AI-powered sales-call analysis and coaching platform. Built with TypeScript · Supabase.
+- **KidFlix** (Streaming platform): Safe streaming hub for children’s movies and shows, with parent sign-in. Built with JavaScript.
+- **Y2K Closet** (E-commerce): Online fashion store. Built with HTML, CSS, JavaScript.
+- **Nanarulz** (Business website): Website for a barber shop. Built with HTML, CSS, JavaScript.
+- **TrustBridge** (Job platform): Job-search platform. Built with HTML, CSS.
+- **Code Zack Jobs** (Automation tool): Tool that finds job listings and applies to them automatically. Built with Python.
+- **Quiz Master** (Web app): Browser-based quiz builder and player. Built with JavaScript. Live: https://sithenkosimbasa.github.io/Quiz-Master/
+
+## How a project works
+1. **Discover**: We pin down your goals, your customers and the one job the site has to do, before any design or code.
+2. **Design**: A layout, colours and type built around your brand, shared with you for feedback before we build.
+3. **Build**: Clean, responsive code with payments, accounts and content wired in and tested on real devices.
+4. **Launch**: Deployed, secured with HTTPS and handed over, with the know-how to run it yourself.
+
+## Frequently asked questions
+**What does NSZ Group do?**
+NSZ Group is a Cape Town web and IT studio. We design and build websites and web apps, build online stores with PayFast or Stripe checkout, design logos, posters and social media content, and set up hosting, domains, business email, office networks and CCTV for South African businesses.
+
+**How much does a website cost?**
+A single-page website is R1 500, a business website of up to five pages is R4 500, and a premium website with unlimited pages is R8 500, all once-off. Online stores start at R6 500 plus R250 a month for hosting.
+
+**How long does a website take?**
+Most small sites take days rather than months. We confirm a fixed timeline in writing with your quote, based on the number of pages and features.
+
+**Do you only work with clients in Cape Town?**
+No. We are based in Cape Town and work with businesses across South Africa remotely. Networking and CCTV installations are done on site.
+
+**How do I get a quote?**
+Fill in the form on our contact page, WhatsApp us on 063 437 1374, or email nszgroupbussines@gmail.com. We usually reply within one business day.
+
+**How much does a website cost?**
+A single-page website is R1 500 once-off. A business website of up to five pages is R4 500, and a premium website with unlimited pages and CMS integration is R8 500. Web apps with accounts, bookings or dashboards are quoted per project.
+
+**Do I own my website’s code?**
+Yes. Every site is hand-coded and the files are handed over to you, so you are never locked into a page builder or a platform subscription to keep your site online.
+
+**Will my website work on phones?**
+Yes. Every site is designed mobile-first and tested on phone, tablet and desktop before launch.
+
+**How much does an online store cost?**
+A Starter Store with up to 10 products is R6 500 once-off plus R250 a month for hosting. A Business Store with unlimited products and customer accounts is R12 500 plus R450 a month. Enterprise stores with multi-vendor marketplaces are R25 000 with custom hosting.
+
+**Which payment gateways do you integrate?**
+PayFast for South African payments, including card and instant EFT, and Stripe for international card payments.
+
+**Can I add and edit products myself?**
+Yes. Every store includes product and inventory management, so your team can add, edit and remove products without a developer.
+
+**How much does a logo cost?**
+The Logo Package is R2 500 and includes three concepts, three revisions per concept, vector files in all formats and brand guidelines. A full Brand Identity is R7 500 and a Brand Refresh is R12 500.
+
+**How much does a poster cost and how fast is it?**
+Posters start at R150 with a 3–5 day turnaround. The Startup package is R350 with print-ready files in 2–3 days, and the Business package is R800 for up to three designs in 1–2 days.
+
+**How much is social media management?**
+Social Starter is R2 500 a month for 8 posts on 2 platforms. Social Pro is R5 500 a month for 16 posts on 4 platforms with ad management. Social Enterprise is R12 500 a month for 24+ posts.
+
+**How is networking and CCTV priced?**
+We quote after a site survey, because the price depends on the size of the premises, the number of cameras or access points, and the equipment you need.
+
+**Can you set up business email on my own domain?**
+Yes. We register .co.za or international domains and set up business email, including Google Workspace, so your team sends mail from your company address.

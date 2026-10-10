@@ -1,0 +1,16 @@
+# Old pages from the previous site -> new URLs (permanent)
+/ict.html            /services/it-services/   301
+/construction.html   /services/               301
+/services.html       /services/               301
+/pricing.html        /pricing/                301
+/contact.html        /contact/                301
+/about.html          /about/                  301
+/work.html           /work/                   301
+/privecypolicy.html  /privacy/                301
+/qr.html             /                        301
+/nsz-group-site.zip  /                        301
+
+# Build sources and project notes are not part of the public site
+/_build/*            /404.html                404!
+/supabase/*          /404.html                404!
+/README.md           /404.html                404!
